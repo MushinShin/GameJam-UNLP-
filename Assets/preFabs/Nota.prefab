@@ -135,4 +135,4 @@ MonoBehaviour:
   tiempoObjetivo: 0
   EfectoHitPreFab: {fileID: 648049971149700276, guid: f7f264daff2b60a42bc73e68fd84991f, type: 3}
   EfectoMiss: {fileID: 11400000, guid: 08cb3b4b00788da46bfa6b08d1993e02, type: 2}
-  missSound: {fileID: 8300000, guid: 6d4418886a9283d4795112f3af43b666, type: 3}
+  missSound: {fileID: 8300000, guid: 89531c7558c36e442a93f381241e3992, type: 3}
