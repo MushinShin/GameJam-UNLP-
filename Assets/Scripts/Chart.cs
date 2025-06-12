@@ -18,7 +18,9 @@ public class Chart : MonoBehaviour
     void Update()
     {
         if (HacerNuevaLista)
-            CrearChart();  
+        {
+            CrearChart();
+        }
     }
     private void CrearChart()
     {
