@@ -498,11 +498,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 174
   indentLevel: 0
-  storyText: Zael - Porque ha perdido, buen hombre. Acepte la derrota, sea un buen
-    perdedor, y vaya a sentarse solo.
+  storyText: Porque ha perdido, buen hombre. Acepte la derrota, sea un buen perdedor,
+    y vaya a sentarse solo.
   description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
+  character: {fileID: 572438724}
+  portrait: {fileID: -6072365937417533290, guid: 88dcb9d5c86721d4d9a346117c0a015a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -605,11 +605,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 169
   indentLevel: 0
-  storyText: "Miko - Pens\xE9 que nos divert\xEDamos\u2026 \xBFpor qu\xE9 dejarlo
-    ac\xE1?"
+  storyText: "Pens\xE9 que nos divert\xEDamos\u2026 \xBFpor qu\xE9 dejarlo ac\xE1?"
   description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
+  character: {fileID: 2119285919}
+  portrait: {fileID: -8697179926911921612, guid: cddd9c687f9d7254fbde4e75b76a75ea, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -633,11 +632,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 168
   indentLevel: 0
-  storyText: "Zael - Supongo que s\xED. De todos modos, cumplir\xE9 con mi palabra,
-    y no le har\xE9 un retrato. \xBFCumplir\xE1 con la suya?"
+  storyText: "Supongo que s\xED. De todos modos, cumplir\xE9 con mi palabra, y no
+    le har\xE9 un retrato. \xBFCumplir\xE1 con la suya?"
   description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
+  character: {fileID: 572438724}
+  portrait: {fileID: -6072365937417533290, guid: 88dcb9d5c86721d4d9a346117c0a015a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -661,10 +660,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 167
   indentLevel: 0
-  storyText: "Miko - Bueno\u2026 me esforc\xE9, por lo menos. "
+  storyText: "Bueno\u2026 me esforc\xE9, por lo menos. "
   description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
+  character: {fileID: 2119285919}
+  portrait: {fileID: -8697179926911921612, guid: cddd9c687f9d7254fbde4e75b76a75ea, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -688,10 +687,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 166
   indentLevel: 0
-  storyText: "Zael - \xBFMe desaf\xEDa y pierde con tanta facilidad? Impresionante.\r\n"
+  storyText: "\xBFMe desaf\xEDa y pierde con tanta facilidad? Impresionante.\r\n"
   description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
+  character: {fileID: 572438724}
+  portrait: {fileID: -6072365937417533290, guid: 88dcb9d5c86721d4d9a346117c0a015a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1

@@ -436,8 +436,7 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 436814804}
+  selectedBlocks: []
   selectedCommands: []
   variables: []
   description: 
@@ -497,10 +496,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 174
   indentLevel: 0
-  storyText: Zael - Nuestro encuentro fue entretenido. Espero poder repetirlo pronto.
+  storyText: Nuestro encuentro fue entretenido. Espero poder repetirlo pronto.
   description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
+  character: {fileID: 572438724}
+  portrait: {fileID: -6072365937417533290, guid: 88dcb9d5c86721d4d9a346117c0a015a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -603,11 +602,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 169
   indentLevel: 0
-  storyText: "Zael - Claro que no. No tiene un rostro f\xE1cil de olvidar, d\xE9jeme
-    decirle."
+  storyText: "Claro que no. No tiene un rostro f\xE1cil de olvidar, d\xE9jeme decirle."
   description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
+  character: {fileID: 572438724}
+  portrait: {fileID: -6072365937417533290, guid: 88dcb9d5c86721d4d9a346117c0a015a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -631,11 +629,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 168
   indentLevel: 0
-  storyText: "Miko - Ah\u2026 bueno, quedar\xE1 pendiente, entonces. \xA1Pero no
-    te olvides!"
+  storyText: "Ah\u2026 bueno, quedar\xE1 pendiente, entonces. \xA1Pero no te olvides!"
   description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
+  character: {fileID: 2119285919}
+  portrait: {fileID: -8697179926911921612, guid: cddd9c687f9d7254fbde4e75b76a75ea, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -659,11 +656,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 167
   indentLevel: 0
-  storyText: "Zael - Supongo que le debo un retrato, pero en dos paradas llego a
-    mi hogar. Y mi abuela debe estar esper\xE1ndome para comer."
+  storyText: "Supongo que le debo un retrato, pero en dos paradas llego a mi hogar.
+    Y mi abuela debe estar esper\xE1ndome para comer."
   description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
+  character: {fileID: 572438724}
+  portrait: {fileID: -6072365937417533290, guid: 88dcb9d5c86721d4d9a346117c0a015a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -690,8 +687,8 @@ MonoBehaviour:
   storyText: "Incre\xEDble\u2026 me super\xF3 en todo aspecto. Jam\xE1s podr\xEDa
     haber triunfado.\r\n"
   description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
+  character: {fileID: 572438724}
+  portrait: {fileID: -6072365937417533290, guid: 88dcb9d5c86721d4d9a346117c0a015a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1

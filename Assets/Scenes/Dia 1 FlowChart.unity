@@ -340,8 +340,6 @@ GameObject:
   - component: {fileID: 436814731}
   - component: {fileID: 436814730}
   - component: {fileID: 436814729}
-  - component: {fileID: 436814728}
-  - component: {fileID: 436814727}
   - component: {fileID: 436814763}
   - component: {fileID: 436814761}
   - component: {fileID: 436814760}
@@ -361,10 +359,6 @@ GameObject:
   - component: {fileID: 436814746}
   - component: {fileID: 436814745}
   - component: {fileID: 436814744}
-  - component: {fileID: 436814788}
-  - component: {fileID: 436814787}
-  - component: {fileID: 436814786}
-  - component: {fileID: 436814785}
   - component: {fileID: 436814784}
   - component: {fileID: 436814783}
   - component: {fileID: 436814782}
@@ -384,12 +378,9 @@ GameObject:
   - component: {fileID: 436814790}
   - component: {fileID: 436814791}
   - component: {fileID: 436814792}
-  - component: {fileID: 436814793}
-  - component: {fileID: 436814795}
-  - component: {fileID: 436814794}
   - component: {fileID: 436814796}
   - component: {fileID: 436814798}
-  - component: {fileID: 436814797}
+  - component: {fileID: 436814799}
   m_Layer: 0
   m_Name: Dia 1 Flowchart
   m_TagString: Untagged
@@ -397,60 +388,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &436814727
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436814625}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 13
-  indentLevel: 0
-  targetFlowchart: {fileID: 0}
-  targetBlock: {fileID: 436814728}
-  startLabel:
-    stringRef: {fileID: 0}
-    stringVal: 
-  startIndex: 0
-  callMode: 0
---- !u!114 &436814728
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436814625}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nodeRect:
-    serializedVersion: 2
-    x: 875.21204
-    y: 67.60892
-    width: 149.14
-    height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
-  itemId: 12
-  blockName: Escena Micro 1-C
-  description: 4 dialogos
-  eventHandler: {fileID: 0}
-  commandList:
-  - {fileID: 436814788}
-  - {fileID: 436814785}
-  - {fileID: 436814786}
-  - {fileID: 436814787}
-  - {fileID: 436814794}
-  - {fileID: 436814795}
-  - {fileID: 436814793}
-  suppressAllAutoSelections: 0
 --- !u!114 &436814729
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -518,7 +455,7 @@ MonoBehaviour:
   description: Ver como llamarlo y como volver
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 436814727}
+  - {fileID: 436814799}
   suppressAllAutoSelections: 0
 --- !u!114 &436814732
 MonoBehaviour:
@@ -753,7 +690,6 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 436814798}
-  - {fileID: 436814797}
   - {fileID: 436814763}
   - {fileID: 436814758}
   - {fileID: 436814759}
@@ -828,8 +764,10 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 436814731}
+  selectedCommands:
+  - {fileID: 436814799}
   variables: []
   description: 
   stepPause: 0
@@ -1394,10 +1332,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 156
   indentLevel: 0
-  storyText: "Zael - Ah\u2026 qu\xE9 propuesta interesante y l\xFAdica. Si gana,
-    entonces, le dar\xE9 su retrato. Y si pierde\u2026 abandona este asiento."
+  storyText: "Ah\u2026 qu\xE9 propuesta interesante y l\xFAdica. Si gana, entonces,
+    le dar\xE9 su retrato. Y si pierde\u2026 abandona este asiento."
   description: 
-  character: {fileID: 0}
+  character: {fileID: 572438724}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -1422,12 +1360,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 155
   indentLevel: 0
-  storyText: "Miko - \xA1Compitamos por el retrato en un duelo de miradas! Vamos
-    a sostener la mirada, y cada vez que parpadees, si me avivo y te imito, resisto
-    el golpe. Si no lo hago, pierdo una de las tres vidas que tengo. Tu objetivo
-    es quitarme las tres vidas, el m\xEDo es sobrevivir."
+  storyText: "\xA1Compitamos por el retrato en un duelo de miradas! Vamos a sostener
+    la mirada, y cada vez que parpadees, si me avivo y te imito, resisto el golpe.
+    Si no lo hago, pierdo una de las tres vidas que tengo. Tu objetivo es quitarme
+    las tres vidas, el m\xEDo es sobrevivir."
   description: 
-  character: {fileID: 0}
+  character: {fileID: 2119285919}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -1454,8 +1392,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: No hay caso, parece que no va a ceder. Entonces, se te ocurre una idea.
   description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
+  character: {fileID: 572438724}
+  portrait: {fileID: -6072365937417533290, guid: 88dcb9d5c86721d4d9a346117c0a015a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1479,11 +1417,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 153
   indentLevel: 0
-  storyText: "Zael - \xBFPor qu\xE9 querr\xEDa salir de mi zona de confort? Ac\xE1
-    estoy perfecto."
+  storyText: "\xBFPor qu\xE9 querr\xEDa salir de mi zona de confort? Ac\xE1 estoy
+    perfecto."
   description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
+  character: {fileID: 572438724}
+  portrait: {fileID: -6072365937417533290, guid: 88dcb9d5c86721d4d9a346117c0a015a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1534,11 +1472,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 151
   indentLevel: 0
-  storyText: "Miko - Y como autodidacta, \xBFno te vendr\xEDa bien salir de tu zona
-    de confort?"
+  storyText: "Y como autodidacta, \xBFno te vendr\xEDa bien salir de tu zona de confort?"
   description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
+  character: {fileID: 2119285919}
+  portrait: {fileID: -8697179926911921612, guid: cddd9c687f9d7254fbde4e75b76a75ea, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1562,11 +1499,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 150
   indentLevel: 0
-  storyText: "Zael - No asisto a la universidad. S\xF3lo ilustro lo que me place;
-    nada m\xE1s, nada menos."
+  storyText: "No asisto a la universidad. S\xF3lo ilustro lo que me place; nada m\xE1s,
+    nada menos."
   description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
+  character: {fileID: 572438724}
+  portrait: {fileID: -6072365937417533290, guid: 88dcb9d5c86721d4d9a346117c0a015a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1590,11 +1527,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 149
   indentLevel: 0
-  storyText: "Miko - Pensalo, \xA1pod\xE9s entrenarte! Dibujar rostros podr\xEDa
-    ser \xFAtil para tu carrera de ilustrador."
+  storyText: "Pensalo, \xA1pod\xE9s entrenarte! Dibujar rostros podr\xEDa ser \xFAtil
+    para tu carrera de ilustrador."
   description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
+  character: {fileID: 2119285919}
+  portrait: {fileID: -8697179926911921612, guid: cddd9c687f9d7254fbde4e75b76a75ea, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1618,12 +1555,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 148
   indentLevel: 0
-  storyText: "Zael - Y mientras mi objetivo es vencerlo, su objetivo es sobrevivir
-    al duelo\u2026 entiendo. Si gana, le dar\xE9 su retrato. Si pierde, me deja de
-    molestar."
+  storyText: "Y mientras mi objetivo es vencerlo, su objetivo es sobrevivir al duelo\u2026
+    entiendo. Si gana, le dar\xE9 su retrato. Si pierde, me deja de molestar."
   description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
+  character: {fileID: 572438724}
+  portrait: {fileID: -6072365937417533290, guid: 88dcb9d5c86721d4d9a346117c0a015a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1647,12 +1583,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 147
   indentLevel: 0
-  storyText: 'Miko - Vos vas a atacar, yo voy a defenderme. Cada vez que parpadees,
-    si me avivo y parpadeo al mismo tiempo, me defiendo. Si no lo hago, pierdo una
-    de las tres vidas que tengo. '
+  storyText: 'Vos vas a atacar, yo voy a defenderme. Cada vez que parpadees, si me
+    avivo y parpadeo al mismo tiempo, me defiendo. Si no lo hago, pierdo una de las
+    tres vidas que tengo. '
   description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
+  character: {fileID: 2119285919}
+  portrait: {fileID: -8697179926911921612, guid: cddd9c687f9d7254fbde4e75b76a75ea, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1676,10 +1612,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 146
   indentLevel: 0
-  storyText: "Miko - Se me ocurre una manera de solucionar esto. \xA1Un duelo de
-    miradas!"
+  storyText: "Se me ocurre una manera de solucionar esto. \xA1Un duelo de miradas!"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 2119285919}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -1735,8 +1670,8 @@ MonoBehaviour:
   storyText: "Zael - No es un tema de dificultad. Mi trabajo vale igual que el de
     cualquier acad\xE9mico. No me menosprecies por ser autodidacta."
   description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
+  character: {fileID: 572438724}
+  portrait: {fileID: -6072365937417533290, guid: 88dcb9d5c86721d4d9a346117c0a015a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1760,10 +1695,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 143
   indentLevel: 0
-  storyText: "Miko - Pero si ni tengo aritos\u2026 soy re f\xE1cil de dibujar."
+  storyText: "Pero si ni tengo aritos\u2026 soy re f\xE1cil de dibujar."
   description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
+  character: {fileID: 2119285919}
+  portrait: {fileID: -8697179926911921612, guid: cddd9c687f9d7254fbde4e75b76a75ea, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1787,10 +1722,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 142
   indentLevel: 0
-  storyText: "Zael - No voy a negociar. Mis principios permanecer\xE1n intactos."
+  storyText: "No voy a negociar. Mis principios permanecer\xE1n intactos."
   description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
+  character: {fileID: 572438724}
+  portrait: {fileID: -6072365937417533290, guid: 88dcb9d5c86721d4d9a346117c0a015a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1814,118 +1749,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 141
   indentLevel: 0
-  storyText: "Miko - \xA1Daleee! Es un dibujito nom\xE1s. No te cuesta nada."
+  storyText: "\xA1Daleee! Es un dibujito nom\xE1s. No te cuesta nada."
   description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &436814785
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436814625}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 140
-  indentLevel: 0
-  storyText: Dialogo 2
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &436814786
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436814625}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 139
-  indentLevel: 0
-  storyText: Dialogo 3
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &436814787
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436814625}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 138
-  indentLevel: 0
-  storyText: Dialogo 4
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &436814788
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436814625}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 137
-  indentLevel: 0
-  storyText: Dialogo 1
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
+  character: {fileID: 2119285919}
+  portrait: {fileID: -8697179926911921612, guid: cddd9c687f9d7254fbde4e75b76a75ea, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2013,85 +1840,6 @@ MonoBehaviour:
   targetAlpha:
     floatRef: {fileID: 0}
     floatVal: 1
---- !u!114 &436814793
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436814625}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 162
-  indentLevel: 0
-  _sceneName:
-    stringRef: {fileID: 0}
-    stringVal: Dia 2 FlowChart
-  loadingImage: {fileID: 0}
-  sceneNameOLD: 
---- !u!114 &436814794
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436814625}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c6dd8d3a780f4d1ea772e3daf10c372, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 164
-  indentLevel: 0
-  targetObjects:
-  - {fileID: 688706144}
-  tweenType: 1
-  waitUntilFinished:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  duration:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  fadeMode: 0
-  targetColor:
-    colorRef: {fileID: 0}
-    colorVal: {r: 1, g: 1, b: 1, a: 1}
-  targetAlpha:
-    floatRef: {fileID: 0}
-    floatVal: 1
---- !u!114 &436814795
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436814625}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c6dd8d3a780f4d1ea772e3daf10c372, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 163
-  indentLevel: 0
-  targetObjects:
-  - {fileID: 1921419625}
-  tweenType: 1
-  waitUntilFinished:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  duration:
-    floatRef: {fileID: 0}
-    floatVal: 1
-  fadeMode: 0
-  targetColor:
-    colorRef: {fileID: 0}
-    colorVal: {r: 1, g: 1, b: 1, a: 1}
-  targetAlpha:
-    floatRef: {fileID: 0}
-    floatVal: 1
 --- !u!114 &436814796
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2120,36 +1868,6 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
---- !u!114 &436814797
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436814625}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 167
-  indentLevel: 0
-  display: 1
-  stage: {fileID: 0}
-  character: {fileID: 2119285919}
-  replacedCharacter: {fileID: 0}
-  portrait: {fileID: -8697179926911921612, guid: cddd9c687f9d7254fbde4e75b76a75ea, type: 3}
-  offset: 0
-  fromPosition: {fileID: 1218656064}
-  toPosition: {fileID: 865128188}
-  facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
-  moveDuration: 1
-  shiftOffset: {x: 0, y: 0}
-  move: 1
-  shiftIntoPlace: 0
-  waitUntilFinished: 1
 --- !u!114 &436814798
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2168,6 +1886,25 @@ MonoBehaviour:
     floatRef: {fileID: 0}
     floatVal: 1
   durationOLD: 0
+--- !u!114 &436814799
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 436814625}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 167
+  indentLevel: 0
+  _sceneName:
+    stringRef: {fileID: 0}
+    stringVal: Minijuego
+  loadingImage: {fileID: 0}
+  sceneNameOLD: 
 --- !u!1 &528682753
 GameObject:
   m_ObjectHideFlags: 0
