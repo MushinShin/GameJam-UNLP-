@@ -21,11 +21,11 @@ public class MusicManager : MonoBehaviour
     [SerializeField] Transform destroy;      //uso destroy y no Destroy por que con D mayuscula ya esta usado 
 
     [Header("4. Vida")]
-    [SerializeField] int VidasIniciales = 3; // Cuántos fallos se permiten
+    [SerializeField] int VidasIniciales = 3; // Cuï¿½ntos fallos se permiten
 
 
     private int vidasActuales;
-    private bool juegoTerminado = false; // Bandera para asegurar que solo termine una vez
+    private bool juegoTerminado = false; 
     private float beat; 
     private Queue<NotasData> NotasSinAparecer = new Queue<NotasData>(); 
     private Queue<Nota> NotasActivas = new Queue<Nota>();
@@ -47,7 +47,7 @@ public class MusicManager : MonoBehaviour
 
     void Update()
     {
-        if (juegoTerminado) return; //medio feo este if pero supongo que esta bien
+        if (juegoTerminado) return;
         if (Audio.isPlaying)
         {
             spawnearNotas();  
@@ -55,8 +55,8 @@ public class MusicManager : MonoBehaviour
         }
         else 
         {
-            // si hago algo como audio.length < audio.time o algo asi? tipo si ya paso mas tiempo de lo que la cancion dura, si agregamos un boton de pausa abria que pausar el contador no mas
-            if (NotasSinAparecer.Count == 0 && NotasActivas.Count == 0 && Audio.time >= Audio.clip.length - 0.1f) // Pequeño margen para el final de audio
+            
+            if (NotasSinAparecer.Count == 0 && NotasActivas.Count == 0 && Audio.time >= Audio.clip.length - 0.1f) 
             {
                 TriggerRhythmGameOver(true); 
             }
@@ -65,11 +65,11 @@ public class MusicManager : MonoBehaviour
 
     private void InitializeGame()
     {
-        NotasSinAparecer.Clear(); // esto es necesario?
+        NotasSinAparecer.Clear();
         NotasActivas.Clear();
         juegoTerminado = false;
         vidasActuales = VidasIniciales;
-        notasProcesadas = 0; // no se puede hacer sin estas dos variables? 
+        notasProcesadas = 0; 
         notasTotal = nivelActual.notas.Count;
         foreach (NotasData noteData in nivelActual.notas)           
         {               
@@ -134,7 +134,7 @@ public class MusicManager : MonoBehaviour
                     notaActual.OnHit();
                     notasProcesadas++;
                     CheckGameEndConditions();
-                    Debug.Log("¡HIT!");
+                    Debug.Log("ï¿½HIT!");
                 }
                 else
                 {
@@ -148,28 +148,25 @@ public class MusicManager : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.Space)) 
             {
-                Debug.Log("Fallo: Presión sin notas en pantalla.");
+                Debug.Log("Fallo: Presiï¿½n sin notas en pantalla.");
             }
         }
     }
-    // Método final que se llama para terminar el minijuego y reportar al GameManager
     private void TriggerRhythmGameOver(bool playerWon)
     {
-        if (juegoTerminado) return; // Asegura que solo se ejecute una vez
+        if (juegoTerminado) return;
         juegoTerminado = true;
 
-        Audio.Stop(); // Detener la música
-        Debug.Log($"Juego de ritmo terminado. El jugador {(playerWon ? "GANÓ" : "PERDIÓ")}.");
+        Audio.Stop(); 
+        Debug.Log($"Juego de ritmo terminado. El jugador {(playerWon ? "GANï¿½" : "PERDIï¿½")}.");
 
-        // Opcional: Mostrar efectos visuales de victoria/derrota (durante un breve tiempo)
-        // Puedes iniciar una corrutina aquí para un pequeño delay antes de cargar la escena
         StartCoroutine(EndGameSequence(playerWon));
     }
-    private void CheckGameEndConditions() // este es el mas raro, siento que aca se pueden acortar varias cosas 
+    private void CheckGameEndConditions() 
     {
-        if (juegoTerminado) return; // Ya terminó, no revisar de nuevo
+        if (juegoTerminado) return; 
 
-        // Condición de derrota por vidas
+      
         if (vidasActuales <= 0)
         {
             Debug.Log("GAME OVER: Vidas agotadas.");
@@ -177,11 +174,10 @@ public class MusicManager : MonoBehaviour
             return;
         }
 
-        // Condición de victoria (todas las notas procesadas y la canción casi al final)
-        // También verifica que el Audio.time esté cerca del final, en caso de charts muy cortos
+      
         if (notasProcesadas >= notasTotal && Audio.time >= Audio.clip.length - 0.1f)
         {
-            Debug.Log("VICTORIA: Todas las notas procesadas y canción finalizada.");
+            Debug.Log("VICTORIA: Todas las notas procesadas y canciï¿½n finalizada.");
             TriggerRhythmGameOver(true); // Victoria
             return;
         }
@@ -190,18 +186,8 @@ public class MusicManager : MonoBehaviour
     {
 
         Debug.Log("termino");
-        yield return new WaitForSeconds(2f); // Esperar 2 segundos para que se vean los efectos/sonidos
+        yield return new WaitForSeconds(2f); 
 
-        // Ahora sí, notificar al GameManager. Él cargará la siguiente escena.
-        // todavia no existe
-        // if (GameManager.Instance != null)
-        //{
-        //    GameManager.Instance.RhythmGameEnded(playerWon);
-        //}
-        //else
-        //{
-        //Debug.LogError("GameManager no encontrado. No se pudo notificar el resultado del ritmo.");
-        // Si esto ocurre, la escena no cambiará automáticamente. Podrías forzar una carga de escena de fallback.
     }
 }
 
