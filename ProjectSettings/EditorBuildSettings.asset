@@ -17,6 +17,21 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Dia 2 FlowChart.unity
     guid: 9c03152ed6bfa5142be16355fde613c8
+  - enabled: 1
+    path: Assets/Scenes/Minijuego.unity
+    guid: 7c85be44f4ba9b941894acdc2bfb1674
+  - enabled: 1
+    path: Assets/Scenes/Dia 1 Ganar.unity
+    guid: 0fa28097fdeb2bd4c84e44e65419e49e
+  - enabled: 1
+    path: Assets/Scenes/Dia 1 Perder.unity
+    guid: 3476afbe5e78c5e439c00671f61b4519
+  - enabled: 1
+    path: Assets/Scenes/Dia 2 Ganar.unity
+    guid: 106acae9aa485034eb416aa08dd67670
+  - enabled: 1
+    path: Assets/Scenes/Dia 2 Perder.unity
+    guid: 0cee4f56155664a4da1202b49908bb3a
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

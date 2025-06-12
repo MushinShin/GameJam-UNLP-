@@ -12,5 +12,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ca715ef2b3b1d4498988b13f23a36b5, type: 3}
   m_Name: notas
   m_EditorClassIdentifier: 
-  notas: []
+  notas:
+  - beat: 1.25
+  - beat: 3.25
+  - beat: 5.25
+  - beat: 7.25
+  - beat: 9.25
+  - beat: 11.25
+  - beat: 13.25
+  - beat: 15.25
+  - beat: 17.25
+  - beat: 19.25
+  - beat: 21.25
+  - beat: 23.25
+  - beat: 25.25
+  - beat: 27.25
+  - beat: 29.25
+  - beat: 31
   songBPM: 94
+  NumeroDeNivel: 1
