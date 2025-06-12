@@ -1,4 +1,5 @@
 using Fungus;
+using Microsoft.Unity.VisualStudio.Editor;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -26,6 +27,13 @@ public class MusicManager : MonoBehaviour
     [SerializeField] int VidasIniciales = 3; // Cu�ntos fallos se permiten
 
 
+    [Header("Referencias UI")]
+    [SerializeField] GameObject corazonesFullSprite; 
+    [SerializeField] GameObject corazones2Sprite;    
+    [SerializeField] GameObject corazones1Sprite;  
+    [SerializeField] GameObject corazonesVacioSprite;
+
+    //variables privadas
     private int vidasActuales;
     private bool juegoTerminado = false; 
     private float beat; 
@@ -65,19 +73,42 @@ public class MusicManager : MonoBehaviour
         }
     }
 
-    private void InitializeGame()
+    private void actualizarUI()
+    {
+        if (vidasActuales == 3)
+        {
+            corazonesFullSprite.SetActive(true);
+        }
+        else if (vidasActuales == 2)
+        {
+            corazonesFullSprite.SetActive(false);
+            corazones2Sprite.SetActive(true);
+        }
+        else if (vidasActuales == 1)
+        {
+            corazones2Sprite.SetActive(true);
+            corazones1Sprite.SetActive(false);
+        }
+        else // vidasActuales <= 0
+        {
+            corazones1Sprite.SetActive(false);
+            corazonesVacioSprite.SetActive(true);
+        }
+    }
+    private void InitializeGame() //incializo variables, ignorar
     {
         NotasSinAparecer.Clear();
         NotasActivas.Clear();
         juegoTerminado = false;
         vidasActuales = VidasIniciales;
-        notasProcesadas = 0; 
+        notasProcesadas = 0;
         notasTotal = nivelActual.notas.Count;
-        foreach (NotasData noteData in nivelActual.notas)           
-        {               
-            NotasSinAparecer.Enqueue(noteData);            
-        }            
-        Audio.Play(); 
+        actualizarUI();
+        foreach (NotasData noteData in nivelActual.notas)
+        {
+            NotasSinAparecer.Enqueue(noteData);
+        }
+        Audio.Play();
     }
 
 
@@ -160,7 +191,7 @@ public class MusicManager : MonoBehaviour
         juegoTerminado = true;
 
         Audio.Stop(); 
-        Debug.Log($"Juego de ritmo terminado. El jugador {(playerWon ? "GAN�" : "PERDI�")}.");
+        Debug.Log($"Juego de ritmo terminado. El jugador {(playerWon ? "GANO" : "PERDIO")}.");
 
         StartCoroutine(EndGameSequence(playerWon));
     }
@@ -184,12 +215,52 @@ public class MusicManager : MonoBehaviour
             return;
         }
     }
-    private IEnumerator EndGameSequence(bool playerWon)
+    
+    private void finishMinigame(bool Resultado)
+    {
+        string sceneToLoad = "";
+        if (nivelActual.NumeroDeNivel == 1)
+        {
+            if (Resultado)
+            {
+                sceneToLoad = "Dia 1 Ganar"; // Nombre de tu escena Fungus para Día 1 Gane
+            }
+            else
+            {
+                sceneToLoad = "Dia 1 Perder"; // Nombre de tu escena Fungus para Día 1 Pierde
+            }
+        }
+        else if (nivelActual.NumeroDeNivel == 2)
+        {
+            if (Resultado)
+            {
+                sceneToLoad = "Dia 2 Ganar"; // Nombre de tu escena Fungus para Día 2 Gane
+            }
+            else
+            {
+                sceneToLoad = "Dia 2 Perder"; // Nombre de tu escena Fungus para Día 2 Pierde
+            }
+        }
+        else if (nivelActual.NumeroDeNivel == 3)
+        {
+            if (Resultado)
+            {
+                sceneToLoad = ""; // Nombre de tu escena Fungus para Día 3 Gane
+            }
+            else
+            {
+                sceneToLoad = ""; // Nombre de tu escena Fungus para Día 3 Pierde
+            }
+        }
+            SceneManager.LoadScene(sceneToLoad);
+    }
+    private IEnumerator EndGameSequence(bool Resultado)
     {
 
         Debug.Log("termino");
-        SceneManager.LoadScene("FungusScene");
-        yield return new WaitForSeconds(2f); 
+        // poner musica de victoria/derrota para que se escuche 
+        yield return new WaitForSeconds(2f);
+        finishMinigame(Resultado);
 
     }
 }
