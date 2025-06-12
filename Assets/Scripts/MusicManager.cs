@@ -2,9 +2,11 @@ using Fungus;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class MusicManager : MonoBehaviour
 {
+    //juasjuas
 
     [Header("1. Musica Y Nivel Actual")]
     [SerializeField] AudioSource Audio; 
@@ -186,6 +188,7 @@ public class MusicManager : MonoBehaviour
     {
 
         Debug.Log("termino");
+        SceneManager.LoadScene("FungusScene");
         yield return new WaitForSeconds(2f); 
 
     }
