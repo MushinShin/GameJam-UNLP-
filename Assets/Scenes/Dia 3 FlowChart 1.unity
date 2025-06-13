@@ -361,7 +361,7 @@ GameObject:
   - component: {fileID: 463399059}
   - component: {fileID: 463399058}
   m_Layer: 0
-  m_Name: Luca
+  m_Name: Maria
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -379,13 +379,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameText: LUCA
+  nameText: Maria
   nameColor: {r: 0.9056604, g: 0.6243951, b: 0.055535804, a: 1}
   soundEffect: {fileID: 0}
   portraits:
-  - {fileID: 6895378738407024239, guid: 7cd173062fb4a344f9061341fca39691, type: 3}
-  - {fileID: 4656200160724465113, guid: c1d26ce598a2ec540b476069e44a4ac1, type: 3}
-  - {fileID: 8550135858245527583, guid: 05f03e954d6508c44884780f00346a09, type: 3}
+  - {fileID: -169951080210801266, guid: 1005881e3dd401a4fb362b6413299512, type: 3}
+  - {fileID: -1982578161384495652, guid: 014585644ff864b4ba7a046d6870f6c1, type: 3}
+  - {fileID: -5566655425452033357, guid: 13838ff9e45af8e4ca6ab26eee2dfaa8, type: 3}
   portraitsFace: 1
   setSayDialog: {fileID: 0}
   description: 
@@ -550,7 +550,6 @@ GameObject:
   - component: {fileID: 1431385073}
   - component: {fileID: 1431385072}
   - component: {fileID: 1431385071}
-  - component: {fileID: 1431385070}
   - component: {fileID: 1431385069}
   - component: {fileID: 1431385068}
   - component: {fileID: 1431385067}
@@ -574,23 +573,23 @@ GameObject:
   - component: {fileID: 1431385049}
   - component: {fileID: 1431385048}
   - component: {fileID: 1431385047}
-  - component: {fileID: 1431385046}
-  - component: {fileID: 1431385045}
   - component: {fileID: 1431385044}
   - component: {fileID: 1431385043}
   - component: {fileID: 1431385042}
   - component: {fileID: 1431385041}
   - component: {fileID: 1431385040}
   - component: {fileID: 1431385039}
-  - component: {fileID: 1431385038}
   - component: {fileID: 1431385037}
   - component: {fileID: 1431385036}
-  - component: {fileID: 1431385076}
-  - component: {fileID: 1431385075}
   - component: {fileID: 1431385077}
   - component: {fileID: 1431385079}
   - component: {fileID: 1431385078}
   - component: {fileID: 1431385080}
+  - component: {fileID: 1431385081}
+  - component: {fileID: 1431385083}
+  - component: {fileID: 1431385082}
+  - component: {fileID: 1431385084}
+  - component: {fileID: 1431385085}
   m_Layer: 0
   m_Name: Dia 2 FlowChart
   m_TagString: Untagged
@@ -625,7 +624,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 1431385043}
   selectedCommands:
-  - {fileID: 1431385075}
+  - {fileID: 1431385037}
   variables: []
   description: 
   stepPause: 0
@@ -813,33 +812,6 @@ MonoBehaviour:
     stringVal: 
   startIndex: 0
   callMode: 0
---- !u!114 &1431385038
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1431384970}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 211
-  indentLevel: 0
-  storyText: "Pero es posta\u2026 me servir\xEDa el reposo."
-  description: 
-  character: {fileID: 2037477888}
-  portrait: {fileID: -403887085373913137, guid: 2f846e46d2a9c154c95756a2ef687778, type: 3}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
 --- !u!114 &1431385039
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -854,11 +826,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 210
   indentLevel: 0
-  storyText: "\xBFQu\xE9 te pens\xE1s? \xBFQue es joda? \xBFQue no soy capaz? Provocame
-    una vez m\xE1s, amigo. Intentalo.. "
+  storyText: " Me est\xE1 agotando tu actitud, Miko. Si quer\xE9s seguir sentado
+    ac\xE1, vas a tener que demostrarme que val\xE9s la pena. "
   description: 
   character: {fileID: 463399058}
-  portrait: {fileID: 8550135858245527583, guid: 05f03e954d6508c44884780f00346a09, type: 3}
+  portrait: {fileID: -5566655425452033357, guid: 13838ff9e45af8e4ca6ab26eee2dfaa8, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -882,11 +854,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 209
   indentLevel: 0
-  storyText: "Ando con muchas cosas en la facu. Por ah\xED un balazo me da carpeta
-    m\xE9dica, \xBFno? Podr\xEDa ponerme al d\xEDa."
+  storyText: "No entiendo por qu\xE9 lo asum\xEDs, igual. \xBFPorque estoy de mal
+    humor? \xBFPorque estoy cansada?."
   description: 
-  character: {fileID: 2037477888}
-  portrait: {fileID: -8697179926911921612, guid: cddd9c687f9d7254fbde4e75b76a75ea, type: 3}
+  character: {fileID: 463399058}
+  portrait: {fileID: -1982578161384495652, guid: 014585644ff864b4ba7a046d6870f6c1, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -910,10 +882,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 208
   indentLevel: 0
-  storyText: "\xBFQu\xE9 dec\xEDs? \xBFEst\xE1s loco?."
+  storyText: "Ocho a\xF1os estudiando, y segundo a\xF1o en la carrera. \xBFTe parece
+    que me va mal?"
   description: 
-  character: {fileID: 2037477888}
-  portrait: {fileID: -8697179926911921612, guid: cddd9c687f9d7254fbde4e75b76a75ea, type: 3}
+  character: {fileID: 463399058}
+  portrait: {fileID: -169951080210801266, guid: 1005881e3dd401a4fb362b6413299512, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -937,10 +910,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 207
   indentLevel: 0
-  storyText: "De una, me encantar\xEDa. Pero que no duela mucho, hacelo r\xE1pido. "
+  storyText: "Te va mal, \xBFno?"
   description: 
   character: {fileID: 2037477888}
-  portrait: {fileID: -8697179926911921612, guid: cddd9c687f9d7254fbde4e75b76a75ea, type: 3}
+  portrait: {fileID: 4595871048461938273, guid: 4c0374cc31949d24d9b3651348ad3fdc, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -979,8 +952,6 @@ MonoBehaviour:
   - {fileID: 1431385041}
   - {fileID: 1431385040}
   - {fileID: 1431385039}
-  - {fileID: 1431385038}
-  - {fileID: 1431385075}
   - {fileID: 1431385037}
   suppressAllAutoSelections: 0
 --- !u!114 &1431385044
@@ -1004,61 +975,6 @@ MonoBehaviour:
     stringVal: 
   startIndex: 0
   callMode: 0
---- !u!114 &1431385045
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1431384970}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 204
-  indentLevel: 0
-  storyText: "Perd\xF3n, Lucas\u2026 no era mi intenci\xF3n."
-  description: 
-  character: {fileID: 2037477888}
-  portrait: {fileID: -403887085373913137, guid: 2f846e46d2a9c154c95756a2ef687778, type: 3}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &1431385046
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1431384970}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 203
-  indentLevel: 0
-  storyText: "Te amenac\xE9 de muerte \xBFpor qu\xE9 me habl\xE1s de mi viejo? Creo
-    que quer\xE9s morir en serio"
-  description: 
-  character: {fileID: 463399058}
-  portrait: {fileID: 8550135858245527583, guid: 05f03e954d6508c44884780f00346a09, type: 3}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
 --- !u!114 &1431385047
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1073,10 +989,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 202
   indentLevel: 0
-  storyText: "\xBFMi familia? \xBFQu\xE9 sabr\xE1s vos de mi familia?"
+  storyText: "Ahora mismo, ya ni me importa ejercer. Nom\xE1s quiero tener mi t\xEDtulo."
   description: 
   character: {fileID: 463399058}
-  portrait: {fileID: 8550135858245527583, guid: 05f03e954d6508c44884780f00346a09, type: 3}
+  portrait: {fileID: -169951080210801266, guid: 1005881e3dd401a4fb362b6413299512, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1100,11 +1016,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 201
   indentLevel: 0
-  storyText: "\xA1Por favor, Lucas! \xA1Pens\xE1 en tu familia! \xBFQu\xE9 dir\xEDan
-    de esto?"
+  storyText: "Estoy en segundo a\xF1o de la carrera, y hace ocho a\xF1os que vengo
+    estudiando. Ya estoy medio aceptando que no me voy a recibir m\xE1s."
   description: 
-  character: {fileID: 2037477888}
-  portrait: {fileID: -403887085373913137, guid: 2f846e46d2a9c154c95756a2ef687778, type: 3}
+  character: {fileID: 463399058}
+  portrait: {fileID: -1982578161384495652, guid: 014585644ff864b4ba7a046d6870f6c1, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1128,10 +1044,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 200
   indentLevel: 0
-  storyText: "Tus ojos se llenan de l\xE1grimas. Lucas parece sorprenderse. "
+  storyText: "Te va bien, \xBFno?"
   description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
+  character: {fileID: 2037477888}
+  portrait: {fileID: 4595871048461938273, guid: 4c0374cc31949d24d9b3651348ad3fdc, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1156,22 +1072,20 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: -2146.238
-    y: 285.64148
-    width: 142.76999
+    y: 287.20398
+    width: 141.79001
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 20
-  blockName: Intentar salvarte
+  blockName: Decirle que bien
   description: 5 Dialogos
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 1431385049}
   - {fileID: 1431385048}
   - {fileID: 1431385047}
-  - {fileID: 1431385046}
-  - {fileID: 1431385045}
-  - {fileID: 1431385076}
+  - {fileID: 1431385085}
   - {fileID: 1431385044}
   suppressAllAutoSelections: 0
 --- !u!114 &1431385051
@@ -1213,7 +1127,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 197
   indentLevel: 0
-  text: Intertar Salvarte
+  text: Decirle que bien
   description: 
   targetBlock: {fileID: 1431385050}
   hideIfVisited: 0
@@ -1238,10 +1152,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 196
   indentLevel: 0
-  storyText: "Amigo, \xBFte callas o te callo de un balazo?"
+  storyText: "S\xED, claro. \xBFQu\xE9 otra opci\xF3n hay si viv\xEDs en La Plata?"
   description: 
-  character: {fileID: 463399058}
-  portrait: {fileID: 8550135858245527583, guid: 05f03e954d6508c44884780f00346a09, type: 3}
+  character: {fileID: 2037477888}
+  portrait: {fileID: 4595871048461938273, guid: 4c0374cc31949d24d9b3651348ad3fdc, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1265,10 +1179,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 195
   indentLevel: 0
-  storyText: "\xA1Dale, dec\xED la verdad! \xA1\xBFMe das un autografo?!"
+  storyText: "\xBFAc\xE1, en La Plata?"
   description: 
-  character: {fileID: 2037477888}
-  portrait: {fileID: 4595871048461938273, guid: 4c0374cc31949d24d9b3651348ad3fdc, type: 3}
+  character: {fileID: 463399058}
+  portrait: {fileID: -169951080210801266, guid: 1005881e3dd401a4fb362b6413299512, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1292,12 +1206,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 194
   indentLevel: 0
-  storyText: "Me encanta que me recites reels como poes\xEDa, pero te repito, no
-    soy ninguna promesa deportiva. Soy un estudiante de Gesti\xF3n Cultural. Nada
-    m\xE1s."
+  storyText: "S\xED, te entiendo\u2026 estoy en Inform\xE1tica yo. Los contenidos
+    son agotadores."
   description: 
-  character: {fileID: 463399058}
-  portrait: {fileID: 4656200160724465113, guid: c1d26ce598a2ec540b476069e44a4ac1, type: 3}
+  character: {fileID: 2037477888}
+  portrait: {fileID: -403887085373913137, guid: 2f846e46d2a9c154c95756a2ef687778, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1321,10 +1234,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 193
   indentLevel: 0
-  storyText: "Lucas parece estar conteni\xE9ndose. "
+  storyText: "Se\u2026 un poco. En realidad estoy cansada. Ando en mil cosas al mismo
+    tiempo."
   description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
+  character: {fileID: 463399058}
+  portrait: {fileID: -169951080210801266, guid: 1005881e3dd401a4fb362b6413299512, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1348,11 +1262,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 192
   indentLevel: 0
-  storyText: "\xA1S\xED sos! \xA1Te vi en un reel! \u201C\xA1NO PODR\xC1S CREERLO!
-    ESTA JOVEN PROMESA DEL F\xDATBOL ARGENTINO RESIDE EN LA PLATA\u2026\u201D"
+  storyText: "\xBFEstabas de mal humor? "
   description: 
   character: {fileID: 2037477888}
-  portrait: {fileID: 4595871048461938273, guid: 4c0374cc31949d24d9b3651348ad3fdc, type: 3}
+  portrait: {fileID: -8697179926911921612, guid: cddd9c687f9d7254fbde4e75b76a75ea, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1376,10 +1289,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 191
   indentLevel: 0
-  storyText: "Lucas, con \u201CS\u201D al final\u2026 y no, te habr\xE1s confundido. "
+  storyText: " Bue, est\xE1 bien. Un gusto."
   description: 
   character: {fileID: 463399058}
-  portrait: {fileID: 6895378738407024239, guid: 7cd173062fb4a344f9061341fca39691, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1403,10 +1316,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 190
   indentLevel: 0
-  storyText: "\xA1Te conozco! Sos Luca Fernandez, \xBFno?"
+  storyText: "Un gusto, Mar\xEDa. Me llamo Miko yo."
   description: 
   character: {fileID: 2037477888}
-  portrait: {fileID: 4595871048461938273, guid: 4c0374cc31949d24d9b3651348ad3fdc, type: 3}
+  portrait: {fileID: -8697179926911921612, guid: cddd9c687f9d7254fbde4e75b76a75ea, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1430,11 +1343,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 189
   indentLevel: 0
-  storyText: "De repente, algo en la cara del desconocido parece hacer conectar tus
-    neuronas. En medio de la sin\xE1psis, grit\xE1s:"
+  storyText: "As\xED que con eso te qued\xE1s de todo lo que te dije. S\xED, me llamo
+    Mar\xEDa. "
   description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
+  character: {fileID: 463399058}
+  portrait: {fileID: -169951080210801266, guid: 1005881e3dd401a4fb362b6413299512, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1458,10 +1371,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 188
   indentLevel: 0
-  storyText: Buscalo en google.
+  storyText: "\xBFTe llam\xE1s Mar\xEDa?"
   description: 
-  character: {fileID: 543485229}
-  portrait: {fileID: 6895378738407024239, guid: 7cd173062fb4a344f9061341fca39691, type: 3}
+  character: {fileID: 2037477888}
+  portrait: {fileID: -403887085373913137, guid: 2f846e46d2a9c154c95756a2ef687778, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1485,10 +1398,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 187
   indentLevel: 0
-  storyText: No me respondiste.
+  storyText: "\xBFSab\xE9s lo que me muero por una siesta? \xBFQu\xE9 te pinta venir
+    a molestar a una chica cansada? \xBFQu\xE9 te hizo decir che, voy a sentarme
+    al lado de Mar\xEDa hasta que me saque de una patada?"
   description: 
-  character: {fileID: 2037477888}
-  portrait: {fileID: -8697179926911921612, guid: cddd9c687f9d7254fbde4e75b76a75ea, type: 3}
+  character: {fileID: 463399058}
+  portrait: {fileID: -5566655425452033357, guid: 13838ff9e45af8e4ca6ab26eee2dfaa8, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1512,11 +1427,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 186
   indentLevel: 0
-  storyText: "No sos muy futbolero, \xBFno? Cinco copas libertadores, pap\xE1. As\xED
-    como escuch\xE1s."
+  storyText: 'Estoy volviendo a casa del laburo. En una hora tengo que volver a salir,
+    ni llego a dormir la siesta. '
   description: 
-  character: {fileID: 543485229}
-  portrait: {fileID: 6895378738407024239, guid: 7cd173062fb4a344f9061341fca39691, type: 3}
+  character: {fileID: 463399058}
+  portrait: {fileID: -1982578161384495652, guid: 014585644ff864b4ba7a046d6870f6c1, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1540,10 +1455,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 185
   indentLevel: 0
-  storyText: No conozco el equipo, eso.
+  storyText: "\xBFY si yo no quiero charlar? "
   description: 
-  character: {fileID: 2037477888}
-  portrait: {fileID: -8697179926911921612, guid: cddd9c687f9d7254fbde4e75b76a75ea, type: 3}
+  character: {fileID: 463399058}
+  portrait: {fileID: -1982578161384495652, guid: 014585644ff864b4ba7a046d6870f6c1, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1567,10 +1482,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 184
   indentLevel: 0
-  storyText: ' El desconocido se quita los auriculares y te mira con frialdad.'
+  storyText: "No s\xE9, quiero sacar charla\u2026"
   description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
+  character: {fileID: 2037477888}
+  portrait: {fileID: -8697179926911921612, guid: cddd9c687f9d7254fbde4e75b76a75ea, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1594,10 +1509,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 183
   indentLevel: 0
-  storyText: "\xBFPerd\xF3n? No entiendo la pregunta."
+  storyText: "\xBFA qu\xE9 viene la pregunta? \xBFQu\xE9 te pint\xF3?"
   description: 
-  character: {fileID: 543485229}
-  portrait: {fileID: 6895378738407024239, guid: 7cd173062fb4a344f9061341fca39691, type: 3}
+  character: {fileID: 463399058}
+  portrait: {fileID: -1982578161384495652, guid: 014585644ff864b4ba7a046d6870f6c1, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1621,10 +1536,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 182
   indentLevel: 0
-  storyText: "\xBFDe qu\xE9 equipo sos?"
+  storyText: "\xA1Me gusta tu bolso! \xBFDe qu\xE9 marca es?"
   description: 
   character: {fileID: 2037477888}
-  portrait: {fileID: -8697179926911921612, guid: cddd9c687f9d7254fbde4e75b76a75ea, type: 3}
+  portrait: {fileID: 4595871048461938273, guid: 4c0374cc31949d24d9b3651348ad3fdc, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1648,9 +1563,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 181
   indentLevel: 0
-  storyText: " Una vez m\xE1s, te sent\xE1s al lado de un desconocido. Mira por la
-    ventana con los auriculares puestos, como todo el mundo. Tiene una camiseta de
-    f\xFAtbol que te llama la atenci\xF3n, y cre\xE9s reconocerlo de alg\xFAn lado\u2026"
+  storyText: "Te sent\xE1s al lado de una desconocida. Tiene cara de agotamiento,
+    agita su pie y en sus piernas sostiene un bolso. Parece a punto de explotar.
+    Decid\xEDs encarar la conversaci\xF3n."
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1709,36 +1624,13 @@ MonoBehaviour:
   - {fileID: 1431385055}
   - {fileID: 1431385054}
   - {fileID: 1431385053}
+  - {fileID: 1431385081}
+  - {fileID: 1431385082}
+  - {fileID: 1431385083}
+  - {fileID: 1431385084}
   - {fileID: 1431385052}
   - {fileID: 1431385051}
   suppressAllAutoSelections: 0
---- !u!114 &1431385070
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1431384970}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 179
-  indentLevel: 0
-  storyText: "\u2026fue inolvidable. Tengo que repetirlo. Mucho, MUCHO m\xE1s seguido."
-  description: 
-  character: {fileID: 2037477888}
-  portrait: {fileID: -403887085373913137, guid: 2f846e46d2a9c154c95756a2ef687778, type: 3}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
 --- !u!114 &1431385071
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1753,11 +1645,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 178
   indentLevel: 0
-  storyText: "Pero la adrenalina de conocer a alguien como Zael en un lugar como
-    el micro\u2026."
+  storyText: Pero hoy va a ser diferente. Estoy seguro. Solo tengo que tomar la iniciativa.
   description: 
   character: {fileID: 2037477888}
-  portrait: {fileID: -8697179926911921612, guid: cddd9c687f9d7254fbde4e75b76a75ea, type: 3}
+  portrait: {fileID: 4595871048461938273, guid: 4c0374cc31949d24d9b3651348ad3fdc, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1781,10 +1672,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 177
   indentLevel: 0
-  storyText: "Ayer la pas\xE9 bien. La facu estuvo agitada, como siempre."
+  storyText: "Ayer me fue mal en un parcial, eso me garrone\xF3 un poco. Hay d\xEDas
+    que se sienten irremontables."
   description: 
   character: {fileID: 2037477888}
-  portrait: {fileID: 4595871048461938273, guid: 4c0374cc31949d24d9b3651348ad3fdc, type: 3}
+  portrait: {fileID: -403887085373913137, guid: 2f846e46d2a9c154c95756a2ef687778, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1842,64 +1734,8 @@ MonoBehaviour:
   commandList:
   - {fileID: 1431385072}
   - {fileID: 1431385071}
-  - {fileID: 1431385070}
   - {fileID: 1431385073}
   suppressAllAutoSelections: 0
---- !u!114 &1431385075
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1431384970}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 217
-  indentLevel: 0
-  storyText: Me hartaste. Esta no te la voy a dejar pasar.
-  description: 
-  character: {fileID: 463399058}
-  portrait: {fileID: 8550135858245527583, guid: 05f03e954d6508c44884780f00346a09, type: 3}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &1431385076
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1431384970}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 216
-  indentLevel: 0
-  storyText: "Abandon\xE1 esa actitud pasiva, amigo. Me hartaste. Pele\xE1 por tu
-    vida\u2026 o mor\xED en el intento."
-  description: 
-  character: {fileID: 463399058}
-  portrait: {fileID: 6895378738407024239, guid: 7cd173062fb4a344f9061341fca39691, type: 3}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
 --- !u!114 &1431385077
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1997,6 +1833,145 @@ MonoBehaviour:
     floatRef: {fileID: 0}
     floatVal: 1
   durationOLD: 0
+--- !u!114 &1431385081
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1431384970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 222
+  indentLevel: 0
+  storyText: "Yo voy a Ciencias de la Computaci\xF3n en la UBA, y vivo ac\xE1. Siempre
+    que curso voy para all\xE1. \xBFAlg\xFAn problema? "
+  description: 
+  character: {fileID: 463399058}
+  portrait: {fileID: -5566655425452033357, guid: 13838ff9e45af8e4ca6ab26eee2dfaa8, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1431385082
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1431384970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 224
+  indentLevel: 0
+  storyText: " No, no\u2026 perd\xF3n. \xBFY te va bien?"
+  description: 
+  character: {fileID: 463399058}
+  portrait: {fileID: -5566655425452033357, guid: 13838ff9e45af8e4ca6ab26eee2dfaa8, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1431385083
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1431384970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 223
+  indentLevel: 0
+  storyText: "Mar\xEDa te vuelve a mirar seriamente. Trag\xE1s saliva, su mirada
+    da miedo."
+  description: 
+  character: {fileID: 463399058}
+  portrait: {fileID: -5566655425452033357, guid: 13838ff9e45af8e4ca6ab26eee2dfaa8, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1431385084
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1431384970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 225
+  indentLevel: 0
+  storyText: "Tengo dos laburos, y estudio a m\xE1s de 50 kil\xF3metros de mi departamento.
+    \xBFC\xF3mo te parece que me va?"
+  description: 
+  character: {fileID: 463399058}
+  portrait: {fileID: -5566655425452033357, guid: 13838ff9e45af8e4ca6ab26eee2dfaa8, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1431385085
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1431384970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 226
+  indentLevel: 0
+  storyText: "Medio que me pudriste, Miko. Si quer\xE9s seguir sentado ac\xE1, vas
+    a tener que demostrarme que val\xE9s la pena. "
+  description: 
+  character: {fileID: 463399058}
+  portrait: {fileID: -5566655425452033357, guid: 13838ff9e45af8e4ca6ab26eee2dfaa8, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!1 &1550890856
 GameObject:
   m_ObjectHideFlags: 0

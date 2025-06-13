@@ -586,10 +586,11 @@ GameObject:
   - component: {fileID: 1431385022}
   - component: {fileID: 1431385025}
   - component: {fileID: 1431385027}
-  - component: {fileID: 1431385029}
   - component: {fileID: 1431385028}
-  - component: {fileID: 1431385030}
-  - component: {fileID: 1431385031}
+  - component: {fileID: 1431385032}
+  - component: {fileID: 1431385034}
+  - component: {fileID: 1431385033}
+  - component: {fileID: 1431385035}
   m_Layer: 0
   m_Name: Dia 2 FlowChart
   m_TagString: Untagged
@@ -611,11 +612,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 54
   indentLevel: 0
-  storyText: "Ser mejor que los que me rodean, \xBFviste? Perdonar la vida que no
-    me perdonaron. "
+  storyText: " \xBFNo te parece triste? \xBFNo te parece tr\xE1gico? "
   description: 
-  character: {fileID: 1422737300}
-  portrait: {fileID: 6895378738407024239, guid: 7cd173062fb4a344f9061341fca39691, type: 3}
+  character: {fileID: 1793386959}
+  portrait: {fileID: -169951080210801266, guid: 1005881e3dd401a4fb362b6413299512, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -639,11 +639,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 53
   indentLevel: 0
-  storyText: "Ni idea. Por ah\xED estoy cansado de la violencia, de las patadas y
-    las tarjetas rojas."
+  storyText: "Bueno, as\xED son todos mis d\xEDas. Con la carrera, con los laburos,
+    con mi roomie. Nunca llego a lo que quiero."
   description: 
-  character: {fileID: 1422737300}
-  portrait: {fileID: 6895378738407024239, guid: 7cd173062fb4a344f9061341fca39691, type: 3}
+  character: {fileID: 1793386959}
+  portrait: {fileID: -1982578161384495652, guid: 014585644ff864b4ba7a046d6870f6c1, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -667,10 +667,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 52
   indentLevel: 0
-  storyText: "No s\xE9 si agradecerte\u2026 \xBFa qu\xE9 viene el cambio?"
+  storyText: "M\xE1s o menos\u2026 me hubiera gustado ganarte."
   description: 
   character: {fileID: 1599776822}
-  portrait: {fileID: -8697179926911921612, guid: cddd9c687f9d7254fbde4e75b76a75ea, type: 3}
+  portrait: {fileID: -403887085373913137, guid: 2f846e46d2a9c154c95756a2ef687778, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -694,10 +694,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 51
   indentLevel: 0
-  storyText: "Qu\xE9 aburrido. Ni vale la pena matarte. "
+  storyText: "Dale, che. \xBFTe doy una oportunidad y la desperdic\xEDas as\xED? 
+    \xBFC\xF3mo se siente?"
   description: 
-  character: {fileID: 1422737300}
-  portrait: {fileID: 4656200160724465113, guid: c1d26ce598a2ec540b476069e44a4ac1, type: 3}
+  character: {fileID: 1793386959}
+  portrait: {fileID: -5566655425452033357, guid: 13838ff9e45af8e4ca6ab26eee2dfaa8, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -729,7 +730,7 @@ MonoBehaviour:
   useCustomTint: 0
   itemId: 27
   blockName: Escena Micro 2-C (Copy)
-  description: 4 Dialogos
+  description: EXPRESON 4
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 1431384975}
@@ -737,9 +738,8 @@ MonoBehaviour:
   - {fileID: 1431384973}
   - {fileID: 1431384972}
   - {fileID: 1431385028}
-  - {fileID: 1431385030}
-  - {fileID: 1431385029}
-  - {fileID: 1431385031}
+  - {fileID: 1431385032}
+  - {fileID: 1431385035}
   suppressAllAutoSelections: 0
 --- !u!114 &1431385017
 MonoBehaviour:
@@ -765,10 +765,8 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 1431384976}
-  selectedCommands:
-  - {fileID: 1431385029}
+  selectedBlocks: []
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -922,10 +920,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 169
   indentLevel: 0
-  storyText: "Aunque si yo hago el da\xF1o\u2026 es casi contradictorio."
+  storyText: "No s\xE9\u2026 me parece normal."
   description: 
-  character: {fileID: 1422737300}
-  portrait: {fileID: 4656200160724465113, guid: c1d26ce598a2ec540b476069e44a4ac1, type: 3}
+  character: {fileID: 1599776822}
+  portrait: {fileID: -8697179926911921612, guid: cddd9c687f9d7254fbde4e75b76a75ea, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -935,7 +933,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
---- !u!114 &1431385029
+--- !u!114 &1431385032
 MonoBehaviour:
   m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
@@ -947,57 +945,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 168
+  itemId: 172
   indentLevel: 0
-  storyText: "Amigo, esta es mi parada. Un gustazo. Al final me divert\xED un poco
-    con vos.\r\n"
-  description: 
-  character: {fileID: 1422737300}
-  portrait: {fileID: 4656200160724465113, guid: c1d26ce598a2ec540b476069e44a4ac1, type: 3}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &1431385030
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1431384970}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 170
-  indentLevel: 0
-  _duration:
-    floatRef: {fileID: 0}
-    floatVal: 1
-  durationOLD: 0
---- !u!114 &1431385031
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1431384970}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 171
-  indentLevel: 0
-  storyText: "No lleg\xE1s a despedirte de Lucas antes de que baje del micro. Es
-    recibido por un hombre arrugado de traje. Sab\xE9s que Lucas no quiere que se
-    cierren las puertas del micro, pero, como siempre, lo hacen."
+  storyText: "Mar\xEDa te mira sorprendida. Luego se dirige a la ventana, y vuelven
+    a viajar en silencio. No te echaron, pero sent\xEDs que hay algo que falta. Quisieras
+    seguir hablando. Quisieras reconfortarla. Pero te das cuenta de que no vas a
+    poder."
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1010,6 +963,73 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
+--- !u!114 &1431385033
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1431384970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 174
+  indentLevel: 0
+  _sceneName:
+    stringRef: {fileID: 0}
+    stringVal: MainMenu
+  loadingImage: {fileID: 0}
+  sceneNameOLD: 
+--- !u!114 &1431385034
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1431384970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: -2546.846
+    y: 169.93872
+    width: 81.66
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 173
+  blockName: Menu
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 1431385033}
+  suppressAllAutoSelections: 0
+--- !u!114 &1431385035
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1431384970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 175
+  indentLevel: 0
+  targetFlowchart: {fileID: 0}
+  targetBlock: {fileID: 1431385034}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
 --- !u!1 &1550890856
 GameObject:
   m_ObjectHideFlags: 0
@@ -1192,6 +1212,60 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1793386958
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1793386960}
+  - component: {fileID: 1793386959}
+  m_Layer: 0
+  m_Name: Maria
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1793386959
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1793386958}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameText: Maria
+  nameColor: {r: 0.9056604, g: 0.6243951, b: 0.055535804, a: 1}
+  soundEffect: {fileID: 0}
+  portraits:
+  - {fileID: -169951080210801266, guid: 1005881e3dd401a4fb362b6413299512, type: 3}
+  - {fileID: -1982578161384495652, guid: 014585644ff864b4ba7a046d6870f6c1, type: 3}
+  - {fileID: -5566655425452033357, guid: 13838ff9e45af8e4ca6ab26eee2dfaa8, type: 3}
+  portraitsFace: 1
+  setSayDialog: {fileID: 0}
+  description: 
+--- !u!4 &1793386960
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1793386958}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2135026900
 GameObject:
   m_ObjectHideFlags: 0
@@ -1296,3 +1370,4 @@ SceneRoots:
   - {fileID: 164697172}
   - {fileID: 1599776823}
   - {fileID: 1422737301}
+  - {fileID: 1793386960}
