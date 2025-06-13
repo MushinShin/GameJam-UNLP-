@@ -27,7 +27,7 @@ public class MusicManager : MonoBehaviour
     [SerializeField] int VidasIniciales = 3; // Cu�ntos fallos se permiten
 
 
-    [Header("Referencias UI")]
+    [Header("5. Referencias UI")]
     [SerializeField] GameObject corazonesFullSprite; 
     [SerializeField] GameObject corazones2Sprite;    
     [SerializeField] GameObject corazones1Sprite;  
@@ -86,8 +86,8 @@ public class MusicManager : MonoBehaviour
         }
         else if (vidasActuales == 1)
         {
-            corazones2Sprite.SetActive(true);
-            corazones1Sprite.SetActive(false);
+            corazones2Sprite.SetActive(false);
+            corazones1Sprite.SetActive(true);
         }
         else // vidasActuales <= 0
         {
@@ -149,10 +149,10 @@ public class MusicManager : MonoBehaviour
                 notaActual.OnMiss();
                 notasProcesadas++;
                 vidasActuales--;
+                actualizarUI();
                 CheckGameEndConditions();
                 Debug.Log("MISS!");
                 return;
-                //agregar perder vida si tengo tiempo xddd
             }
 
             //HIT
@@ -167,12 +167,13 @@ public class MusicManager : MonoBehaviour
                     notaActual.OnHit();
                     notasProcesadas++;
                     CheckGameEndConditions();
-                    Debug.Log("�HIT!");
+                    Debug.Log("HIT!");
                 }
                 else
                 {
                     Debug.Log("Fallo, muy temprano");
                     vidasActuales--;
+                    actualizarUI();
                     CheckGameEndConditions();
                 }
             }

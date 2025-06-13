@@ -6,7 +6,7 @@ public class Nota : MonoBehaviour
     private Vector3 Spawn;
     private Vector3 Objetivo;
     private float Duracion; 
-    public float tiempoObjetivo; // El tiempo exacto en la canción en que esta nota debe ser golpeada
+    public float tiempoObjetivo; // El tiempo exacto en la canciï¿½n en que esta nota debe ser golpeada
 
 
     [Header("Efectos de Nota")]
