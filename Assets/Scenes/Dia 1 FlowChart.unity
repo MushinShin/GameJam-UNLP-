@@ -482,7 +482,6 @@ MonoBehaviour:
   description: 8 Dialogos
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 436814729}
   - {fileID: 436814776}
   - {fileID: 436814775}
   - {fileID: 436814774}
@@ -491,6 +490,7 @@ MonoBehaviour:
   - {fileID: 436814771}
   - {fileID: 436814770}
   - {fileID: 436814769}
+  - {fileID: 436814729}
   suppressAllAutoSelections: 0
 --- !u!114 &436814733
 MonoBehaviour:
@@ -517,7 +517,6 @@ MonoBehaviour:
   description: 8 DIalogos
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 436814730}
   - {fileID: 436814784}
   - {fileID: 436814783}
   - {fileID: 436814782}
@@ -526,6 +525,7 @@ MonoBehaviour:
   - {fileID: 436814779}
   - {fileID: 436814778}
   - {fileID: 436814777}
+  - {fileID: 436814730}
   suppressAllAutoSelections: 0
 --- !u!114 &436814734
 MonoBehaviour:
@@ -765,9 +765,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 436814731}
+  - {fileID: 436814737}
   selectedCommands:
-  - {fileID: 436814799}
+  - {fileID: 436814792}
   variables: []
   description: 
   stepPause: 0
@@ -1336,7 +1336,7 @@ MonoBehaviour:
     le dar\xE9 su retrato. Y si pierde\u2026 abandona este asiento."
   description: 
   character: {fileID: 572438724}
-  portrait: {fileID: 0}
+  portrait: {fileID: -6072365937417533290, guid: 88dcb9d5c86721d4d9a346117c0a015a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1366,7 +1366,7 @@ MonoBehaviour:
     las tres vidas, el m\xEDo es sobrevivir."
   description: 
   character: {fileID: 2119285919}
-  portrait: {fileID: 0}
+  portrait: {fileID: -8697179926911921612, guid: cddd9c687f9d7254fbde4e75b76a75ea, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1615,7 +1615,7 @@ MonoBehaviour:
   storyText: "Se me ocurre una manera de solucionar esto. \xA1Un duelo de miradas!"
   description: 
   character: {fileID: 2119285919}
-  portrait: {fileID: 0}
+  portrait: {fileID: -8697179926911921612, guid: cddd9c687f9d7254fbde4e75b76a75ea, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1

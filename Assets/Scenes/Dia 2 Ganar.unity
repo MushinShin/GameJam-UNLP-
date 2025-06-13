@@ -612,8 +612,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -2757.6482
-    y: 171.68901
+    x: -2760.18
+    y: 175.48648
     width: 192.54
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -654,8 +654,7 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 1431385024}
+  selectedBlocks: []
   selectedCommands: []
   variables: []
   description: 
@@ -798,7 +797,7 @@ MonoBehaviour:
     floatVal: 1
 --- !u!114 &1431385028
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -826,7 +825,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1431385029
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
