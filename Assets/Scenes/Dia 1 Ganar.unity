@@ -438,7 +438,8 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 436814804}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 436814796}
   variables: []
   description: 
   stepPause: 0
@@ -500,7 +501,7 @@ MonoBehaviour:
   storyText: Nuestro encuentro fue entretenido. Espero poder repetirlo pronto.
   description: 
   character: {fileID: 572438724}
-  portrait: {fileID: -6072365937417533290, guid: 88dcb9d5c86721d4d9a346117c0a015a, type: 3}
+  portrait: {fileID: 3911758487430624943, guid: 68a5f7f5069ad1b469198f02cc967600, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -606,7 +607,7 @@ MonoBehaviour:
   storyText: "Claro que no. No tiene un rostro f\xE1cil de olvidar, d\xE9jeme decirle."
   description: 
   character: {fileID: 572438724}
-  portrait: {fileID: -6072365937417533290, guid: 88dcb9d5c86721d4d9a346117c0a015a, type: 3}
+  portrait: {fileID: 302180303670240438, guid: b32e9428e63401b498a0d6ef26b3680b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -876,6 +877,8 @@ MonoBehaviour:
   soundEffect: {fileID: 0}
   portraits:
   - {fileID: -6072365937417533290, guid: 88dcb9d5c86721d4d9a346117c0a015a, type: 3}
+  - {fileID: 3911758487430624943, guid: 68a5f7f5069ad1b469198f02cc967600, type: 3}
+  - {fileID: 302180303670240438, guid: b32e9428e63401b498a0d6ef26b3680b, type: 3}
   portraitsFace: 1
   setSayDialog: {fileID: 0}
   description: 
@@ -2580,6 +2583,8 @@ MonoBehaviour:
   soundEffect: {fileID: 0}
   portraits:
   - {fileID: -8697179926911921612, guid: cddd9c687f9d7254fbde4e75b76a75ea, type: 3}
+  - {fileID: 4595871048461938273, guid: 4c0374cc31949d24d9b3651348ad3fdc, type: 3}
+  - {fileID: -403887085373913137, guid: 2f846e46d2a9c154c95756a2ef687778, type: 3}
   portraitsFace: 1
   setSayDialog: {fileID: 0}
   description: 

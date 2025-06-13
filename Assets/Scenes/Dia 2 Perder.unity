@@ -512,7 +512,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 926407264}
   m_CullTransparentMesh: 1
---- !u!1 &1080571103
+--- !u!1 &1422737299
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -520,42 +520,44 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1080571105}
-  - component: {fileID: 1080571104}
+  - component: {fileID: 1422737301}
+  - component: {fileID: 1422737300}
   m_Layer: 0
-  m_Name: Miko
+  m_Name: Luca (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1080571104
+--- !u!114 &1422737300
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1080571103}
+  m_GameObject: {fileID: 1422737299}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameText: MIKO
+  nameText: LUCA
   nameColor: {r: 0.9056604, g: 0.6243951, b: 0.055535804, a: 1}
   soundEffect: {fileID: 0}
   portraits:
-  - {fileID: -8697179926911921612, guid: cddd9c687f9d7254fbde4e75b76a75ea, type: 3}
+  - {fileID: 6895378738407024239, guid: 7cd173062fb4a344f9061341fca39691, type: 3}
+  - {fileID: 4656200160724465113, guid: c1d26ce598a2ec540b476069e44a4ac1, type: 3}
+  - {fileID: 8550135858245527583, guid: 05f03e954d6508c44884780f00346a09, type: 3}
   portraitsFace: 1
   setSayDialog: {fileID: 0}
   description: 
---- !u!4 &1080571105
+--- !u!4 &1422737301
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1080571103}
+  m_GameObject: {fileID: 1422737299}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -612,7 +614,7 @@ MonoBehaviour:
   storyText: "Ser mejor que los que me rodean, \xBFviste? Perdonar la vida que no
     me perdonaron. "
   description: 
-  character: {fileID: 1937388487}
+  character: {fileID: 1422737300}
   portrait: {fileID: 6895378738407024239, guid: 7cd173062fb4a344f9061341fca39691, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -640,7 +642,7 @@ MonoBehaviour:
   storyText: "Ni idea. Por ah\xED estoy cansado de la violencia, de las patadas y
     las tarjetas rojas."
   description: 
-  character: {fileID: 1937388487}
+  character: {fileID: 1422737300}
   portrait: {fileID: 6895378738407024239, guid: 7cd173062fb4a344f9061341fca39691, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -667,7 +669,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "No s\xE9 si agradecerte\u2026 \xBFa qu\xE9 viene el cambio?"
   description: 
-  character: {fileID: 1080571104}
+  character: {fileID: 1599776822}
   portrait: {fileID: -8697179926911921612, guid: cddd9c687f9d7254fbde4e75b76a75ea, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -694,8 +696,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "Qu\xE9 aburrido. Ni vale la pena matarte. "
   description: 
-  character: {fileID: 1937388487}
-  portrait: {fileID: 6895378738407024239, guid: 7cd173062fb4a344f9061341fca39691, type: 3}
+  character: {fileID: 1422737300}
+  portrait: {fileID: 4656200160724465113, guid: c1d26ce598a2ec540b476069e44a4ac1, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -765,7 +767,8 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 1431384976}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 1431385029}
   variables: []
   description: 
   stepPause: 0
@@ -921,8 +924,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "Aunque si yo hago el da\xF1o\u2026 es casi contradictorio."
   description: 
-  character: {fileID: 1937388487}
-  portrait: {fileID: 6895378738407024239, guid: 7cd173062fb4a344f9061341fca39691, type: 3}
+  character: {fileID: 1422737300}
+  portrait: {fileID: 4656200160724465113, guid: c1d26ce598a2ec540b476069e44a4ac1, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -949,8 +952,8 @@ MonoBehaviour:
   storyText: "Amigo, esta es mi parada. Un gustazo. Al final me divert\xED un poco
     con vos.\r\n"
   description: 
-  character: {fileID: 1937388487}
-  portrait: {fileID: 6895378738407024239, guid: 7cd173062fb4a344f9061341fca39691, type: 3}
+  character: {fileID: 1422737300}
+  portrait: {fileID: 4656200160724465113, guid: c1d26ce598a2ec540b476069e44a4ac1, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1135,7 +1138,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1937388486
+--- !u!1 &1599776821
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1143,42 +1146,44 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1937388488}
-  - component: {fileID: 1937388487}
+  - component: {fileID: 1599776823}
+  - component: {fileID: 1599776822}
   m_Layer: 0
-  m_Name: Luca
+  m_Name: Miko (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1937388487
+--- !u!114 &1599776822
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1937388486}
+  m_GameObject: {fileID: 1599776821}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameText: LUCA
+  nameText: MIKO
   nameColor: {r: 0.9056604, g: 0.6243951, b: 0.055535804, a: 1}
   soundEffect: {fileID: 0}
   portraits:
-  - {fileID: 6895378738407024239, guid: 7cd173062fb4a344f9061341fca39691, type: 3}
+  - {fileID: -8697179926911921612, guid: cddd9c687f9d7254fbde4e75b76a75ea, type: 3}
+  - {fileID: 4595871048461938273, guid: 4c0374cc31949d24d9b3651348ad3fdc, type: 3}
+  - {fileID: -403887085373913137, guid: 2f846e46d2a9c154c95756a2ef687778, type: 3}
   portraitsFace: 1
   setSayDialog: {fileID: 0}
   description: 
---- !u!4 &1937388488
+--- !u!4 &1599776823
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1937388486}
+  m_GameObject: {fileID: 1599776821}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -1289,5 +1294,5 @@ SceneRoots:
   - {fileID: 1431385018}
   - {fileID: 295535978}
   - {fileID: 164697172}
-  - {fileID: 1937388488}
-  - {fileID: 1080571105}
+  - {fileID: 1599776823}
+  - {fileID: 1422737301}

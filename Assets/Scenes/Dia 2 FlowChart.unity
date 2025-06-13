@@ -384,6 +384,8 @@ MonoBehaviour:
   soundEffect: {fileID: 0}
   portraits:
   - {fileID: 6895378738407024239, guid: 7cd173062fb4a344f9061341fca39691, type: 3}
+  - {fileID: 4656200160724465113, guid: c1d26ce598a2ec540b476069e44a4ac1, type: 3}
+  - {fileID: 8550135858245527583, guid: 05f03e954d6508c44884780f00346a09, type: 3}
   portraitsFace: 1
   setSayDialog: {fileID: 0}
   description: 
@@ -621,8 +623,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1431385036}
-  selectedCommands: []
+  - {fileID: 1431385043}
+  selectedCommands:
+  - {fileID: 1431385075}
   variables: []
   description: 
   stepPause: 0
@@ -827,7 +830,7 @@ MonoBehaviour:
   storyText: "Pero es posta\u2026 me servir\xEDa el reposo."
   description: 
   character: {fileID: 2037477888}
-  portrait: {fileID: -8697179926911921612, guid: cddd9c687f9d7254fbde4e75b76a75ea, type: 3}
+  portrait: {fileID: -403887085373913137, guid: 2f846e46d2a9c154c95756a2ef687778, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -855,7 +858,7 @@ MonoBehaviour:
     una vez m\xE1s, amigo. Intentalo.. "
   description: 
   character: {fileID: 463399058}
-  portrait: {fileID: 6895378738407024239, guid: 7cd173062fb4a344f9061341fca39691, type: 3}
+  portrait: {fileID: 8550135858245527583, guid: 05f03e954d6508c44884780f00346a09, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1018,7 +1021,7 @@ MonoBehaviour:
   storyText: "Perd\xF3n, Lucas\u2026 no era mi intenci\xF3n."
   description: 
   character: {fileID: 2037477888}
-  portrait: {fileID: -8697179926911921612, guid: cddd9c687f9d7254fbde4e75b76a75ea, type: 3}
+  portrait: {fileID: -403887085373913137, guid: 2f846e46d2a9c154c95756a2ef687778, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1046,7 +1049,7 @@ MonoBehaviour:
     que quer\xE9s morir en serio"
   description: 
   character: {fileID: 463399058}
-  portrait: {fileID: 6895378738407024239, guid: 7cd173062fb4a344f9061341fca39691, type: 3}
+  portrait: {fileID: 8550135858245527583, guid: 05f03e954d6508c44884780f00346a09, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1073,7 +1076,7 @@ MonoBehaviour:
   storyText: "\xBFMi familia? \xBFQu\xE9 sabr\xE1s vos de mi familia?"
   description: 
   character: {fileID: 463399058}
-  portrait: {fileID: 6895378738407024239, guid: 7cd173062fb4a344f9061341fca39691, type: 3}
+  portrait: {fileID: 8550135858245527583, guid: 05f03e954d6508c44884780f00346a09, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1101,7 +1104,7 @@ MonoBehaviour:
     de esto?"
   description: 
   character: {fileID: 2037477888}
-  portrait: {fileID: -8697179926911921612, guid: cddd9c687f9d7254fbde4e75b76a75ea, type: 3}
+  portrait: {fileID: -403887085373913137, guid: 2f846e46d2a9c154c95756a2ef687778, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1238,7 +1241,7 @@ MonoBehaviour:
   storyText: "Amigo, \xBFte callas o te callo de un balazo?"
   description: 
   character: {fileID: 463399058}
-  portrait: {fileID: 6895378738407024239, guid: 7cd173062fb4a344f9061341fca39691, type: 3}
+  portrait: {fileID: 8550135858245527583, guid: 05f03e954d6508c44884780f00346a09, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1265,7 +1268,7 @@ MonoBehaviour:
   storyText: "\xA1Dale, dec\xED la verdad! \xA1\xBFMe das un autografo?!"
   description: 
   character: {fileID: 2037477888}
-  portrait: {fileID: -8697179926911921612, guid: cddd9c687f9d7254fbde4e75b76a75ea, type: 3}
+  portrait: {fileID: 4595871048461938273, guid: 4c0374cc31949d24d9b3651348ad3fdc, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1294,7 +1297,7 @@ MonoBehaviour:
     m\xE1s."
   description: 
   character: {fileID: 463399058}
-  portrait: {fileID: 6895378738407024239, guid: 7cd173062fb4a344f9061341fca39691, type: 3}
+  portrait: {fileID: 4656200160724465113, guid: c1d26ce598a2ec540b476069e44a4ac1, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1349,7 +1352,7 @@ MonoBehaviour:
     ESTA JOVEN PROMESA DEL F\xDATBOL ARGENTINO RESIDE EN LA PLATA\u2026\u201D"
   description: 
   character: {fileID: 2037477888}
-  portrait: {fileID: -8697179926911921612, guid: cddd9c687f9d7254fbde4e75b76a75ea, type: 3}
+  portrait: {fileID: 4595871048461938273, guid: 4c0374cc31949d24d9b3651348ad3fdc, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1403,7 +1406,7 @@ MonoBehaviour:
   storyText: "\xA1Te conozco! Sos Luca Fernandez, \xBFno?"
   description: 
   character: {fileID: 2037477888}
-  portrait: {fileID: -8697179926911921612, guid: cddd9c687f9d7254fbde4e75b76a75ea, type: 3}
+  portrait: {fileID: 4595871048461938273, guid: 4c0374cc31949d24d9b3651348ad3fdc, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1621,7 +1624,7 @@ MonoBehaviour:
   storyText: "\xBFDe qu\xE9 equipo sos?"
   description: 
   character: {fileID: 2037477888}
-  portrait: {fileID: 0}
+  portrait: {fileID: -8697179926911921612, guid: cddd9c687f9d7254fbde4e75b76a75ea, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1726,7 +1729,7 @@ MonoBehaviour:
   storyText: "\u2026fue inolvidable. Tengo que repetirlo. Mucho, MUCHO m\xE1s seguido."
   description: 
   character: {fileID: 2037477888}
-  portrait: {fileID: -8697179926911921612, guid: cddd9c687f9d7254fbde4e75b76a75ea, type: 3}
+  portrait: {fileID: -403887085373913137, guid: 2f846e46d2a9c154c95756a2ef687778, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1781,7 +1784,7 @@ MonoBehaviour:
   storyText: "Ayer la pas\xE9 bien. La facu estuvo agitada, como siempre."
   description: 
   character: {fileID: 2037477888}
-  portrait: {fileID: -8697179926911921612, guid: cddd9c687f9d7254fbde4e75b76a75ea, type: 3}
+  portrait: {fileID: 4595871048461938273, guid: 4c0374cc31949d24d9b3651348ad3fdc, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1826,7 +1829,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -2691.5542
+    x: -2686.8667
     y: 329.0622
     width: 144.78
     height: 40
@@ -1859,7 +1862,7 @@ MonoBehaviour:
   storyText: Me hartaste. Esta no te la voy a dejar pasar.
   description: 
   character: {fileID: 463399058}
-  portrait: {fileID: 6895378738407024239, guid: 7cd173062fb4a344f9061341fca39691, type: 3}
+  portrait: {fileID: 8550135858245527583, guid: 05f03e954d6508c44884780f00346a09, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2243,6 +2246,8 @@ MonoBehaviour:
   soundEffect: {fileID: 0}
   portraits:
   - {fileID: -8697179926911921612, guid: cddd9c687f9d7254fbde4e75b76a75ea, type: 3}
+  - {fileID: 4595871048461938273, guid: 4c0374cc31949d24d9b3651348ad3fdc, type: 3}
+  - {fileID: -403887085373913137, guid: 2f846e46d2a9c154c95756a2ef687778, type: 3}
   portraitsFace: 1
   setSayDialog: {fileID: 0}
   description: 

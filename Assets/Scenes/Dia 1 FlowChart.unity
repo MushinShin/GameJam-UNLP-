@@ -381,6 +381,7 @@ GameObject:
   - component: {fileID: 436814796}
   - component: {fileID: 436814798}
   - component: {fileID: 436814799}
+  - component: {fileID: 436814800}
   m_Layer: 0
   m_Name: Dia 1 Flowchart
   m_TagString: Untagged
@@ -489,6 +490,7 @@ MonoBehaviour:
   - {fileID: 436814772}
   - {fileID: 436814771}
   - {fileID: 436814770}
+  - {fileID: 436814800}
   - {fileID: 436814769}
   - {fileID: 436814729}
   suppressAllAutoSelections: 0
@@ -765,9 +767,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 436814737}
+  - {fileID: 436814732}
   selectedCommands:
-  - {fileID: 436814792}
+  - {fileID: 436814769}
   variables: []
   description: 
   stepPause: 0
@@ -866,7 +868,7 @@ MonoBehaviour:
   storyText: "\xBFQui\xE9n le dio permiso a ver mi celular?"
   description: 
   character: {fileID: 572438724}
-  portrait: {fileID: -6072365937417533290, guid: 88dcb9d5c86721d4d9a346117c0a015a, type: 3}
+  portrait: {fileID: -4400825398748620870, guid: 15afd94342ae25d4a90eef22c8a000ee, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -893,7 +895,7 @@ MonoBehaviour:
   storyText: "Me encant\xF3 tu dibujo. Se parec\xEDan a los \xE1rboles de la parada. "
   description: 
   character: {fileID: 2119285919}
-  portrait: {fileID: -8697179926911921612, guid: cddd9c687f9d7254fbde4e75b76a75ea, type: 3}
+  portrait: {fileID: 4595871048461938273, guid: 4c0374cc31949d24d9b3651348ad3fdc, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -921,7 +923,7 @@ MonoBehaviour:
     en sobremanera."
   description: 
   character: {fileID: 572438724}
-  portrait: {fileID: -6072365937417533290, guid: 88dcb9d5c86721d4d9a346117c0a015a, type: 3}
+  portrait: {fileID: 302180303670240438, guid: b32e9428e63401b498a0d6ef26b3680b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -948,7 +950,7 @@ MonoBehaviour:
   storyText: "\xA1S\xED, s\xED, me impresiona! \xA1Es incre\xEDble!"
   description: 
   character: {fileID: 2119285919}
-  portrait: {fileID: -8697179926911921612, guid: cddd9c687f9d7254fbde4e75b76a75ea, type: 3}
+  portrait: {fileID: 4595871048461938273, guid: 4c0374cc31949d24d9b3651348ad3fdc, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -976,7 +978,7 @@ MonoBehaviour:
     Zael Fiszman, ilustrador."
   description: 
   character: {fileID: 572438724}
-  portrait: {fileID: -6072365937417533290, guid: 88dcb9d5c86721d4d9a346117c0a015a, type: 3}
+  portrait: {fileID: 3911758487430624943, guid: 68a5f7f5069ad1b469198f02cc967600, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1030,7 +1032,7 @@ MonoBehaviour:
   storyText: No entiendo la pregunta.
   description: 
   character: {fileID: 572438724}
-  portrait: {fileID: -6072365937417533290, guid: 88dcb9d5c86721d4d9a346117c0a015a, type: 3}
+  portrait: {fileID: -4400825398748620870, guid: 15afd94342ae25d4a90eef22c8a000ee, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1058,7 +1060,7 @@ MonoBehaviour:
     bien los paisajes, ni me imagino c\xF3mo har\xE1s las caras."
   description: 
   character: {fileID: 2119285919}
-  portrait: {fileID: -8697179926911921612, guid: cddd9c687f9d7254fbde4e75b76a75ea, type: 3}
+  portrait: {fileID: 4595871048461938273, guid: 4c0374cc31949d24d9b3651348ad3fdc, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1085,7 +1087,7 @@ MonoBehaviour:
   storyText: No dibujo rostros. Solo paisajes.
   description: 
   character: {fileID: 572438724}
-  portrait: {fileID: -6072365937417533290, guid: 88dcb9d5c86721d4d9a346117c0a015a, type: 3}
+  portrait: {fileID: -4400825398748620870, guid: 15afd94342ae25d4a90eef22c8a000ee, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1109,8 +1111,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 93
   indentLevel: 0
-  storyText: "Miko - Pero pod\xE9s hacerme tipo cartoon, no hay drama. O dibujarme
-    como a un \xE1rbol. Medio apaisajado.   "
+  storyText: "Pero pod\xE9s hacerme tipo cartoon, no hay drama. O dibujarme como
+    a un \xE1rbol. Medio apaisajado.   "
   description: 
   character: {fileID: 2119285919}
   portrait: {fileID: -8697179926911921612, guid: cddd9c687f9d7254fbde4e75b76a75ea, type: 3}
@@ -1224,7 +1226,7 @@ MonoBehaviour:
     Todo permanece igual."
   description: 
   character: {fileID: 2119285919}
-  portrait: {fileID: -8697179926911921612, guid: cddd9c687f9d7254fbde4e75b76a75ea, type: 3}
+  portrait: {fileID: -403887085373913137, guid: 2f846e46d2a9c154c95756a2ef687778, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1280,7 +1282,7 @@ MonoBehaviour:
     no hacerlo hoy?"
   description: 
   character: {fileID: 2119285919}
-  portrait: {fileID: -8697179926911921612, guid: cddd9c687f9d7254fbde4e75b76a75ea, type: 3}
+  portrait: {fileID: 4595871048461938273, guid: 4c0374cc31949d24d9b3651348ad3fdc, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1336,7 +1338,7 @@ MonoBehaviour:
     le dar\xE9 su retrato. Y si pierde\u2026 abandona este asiento."
   description: 
   character: {fileID: 572438724}
-  portrait: {fileID: -6072365937417533290, guid: 88dcb9d5c86721d4d9a346117c0a015a, type: 3}
+  portrait: {fileID: 3911758487430624943, guid: 68a5f7f5069ad1b469198f02cc967600, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1366,7 +1368,7 @@ MonoBehaviour:
     las tres vidas, el m\xEDo es sobrevivir."
   description: 
   character: {fileID: 2119285919}
-  portrait: {fileID: -8697179926911921612, guid: cddd9c687f9d7254fbde4e75b76a75ea, type: 3}
+  portrait: {fileID: -403887085373913137, guid: 2f846e46d2a9c154c95756a2ef687778, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1392,8 +1394,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: No hay caso, parece que no va a ceder. Entonces, se te ocurre una idea.
   description: 
-  character: {fileID: 572438724}
-  portrait: {fileID: -6072365937417533290, guid: 88dcb9d5c86721d4d9a346117c0a015a, type: 3}
+  character: {fileID: 0}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1421,7 +1423,7 @@ MonoBehaviour:
     perfecto."
   description: 
   character: {fileID: 572438724}
-  portrait: {fileID: -6072365937417533290, guid: 88dcb9d5c86721d4d9a346117c0a015a, type: 3}
+  portrait: {fileID: 302180303670240438, guid: b32e9428e63401b498a0d6ef26b3680b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1503,7 +1505,7 @@ MonoBehaviour:
     nada menos."
   description: 
   character: {fileID: 572438724}
-  portrait: {fileID: -6072365937417533290, guid: 88dcb9d5c86721d4d9a346117c0a015a, type: 3}
+  portrait: {fileID: -4400825398748620870, guid: 15afd94342ae25d4a90eef22c8a000ee, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1531,7 +1533,7 @@ MonoBehaviour:
     para tu carrera de ilustrador."
   description: 
   character: {fileID: 2119285919}
-  portrait: {fileID: -8697179926911921612, guid: cddd9c687f9d7254fbde4e75b76a75ea, type: 3}
+  portrait: {fileID: -403887085373913137, guid: 2f846e46d2a9c154c95756a2ef687778, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1559,7 +1561,7 @@ MonoBehaviour:
     entiendo. Si gana, le dar\xE9 su retrato. Si pierde, me deja de molestar."
   description: 
   character: {fileID: 572438724}
-  portrait: {fileID: -6072365937417533290, guid: 88dcb9d5c86721d4d9a346117c0a015a, type: 3}
+  portrait: {fileID: 3911758487430624943, guid: 68a5f7f5069ad1b469198f02cc967600, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1588,7 +1590,7 @@ MonoBehaviour:
     tres vidas que tengo. '
   description: 
   character: {fileID: 2119285919}
-  portrait: {fileID: -8697179926911921612, guid: cddd9c687f9d7254fbde4e75b76a75ea, type: 3}
+  portrait: {fileID: -403887085373913137, guid: 2f846e46d2a9c154c95756a2ef687778, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1671,7 +1673,7 @@ MonoBehaviour:
     cualquier acad\xE9mico. No me menosprecies por ser autodidacta."
   description: 
   character: {fileID: 572438724}
-  portrait: {fileID: -6072365937417533290, guid: 88dcb9d5c86721d4d9a346117c0a015a, type: 3}
+  portrait: {fileID: -4400825398748620870, guid: 15afd94342ae25d4a90eef22c8a000ee, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1698,7 +1700,7 @@ MonoBehaviour:
   storyText: "Pero si ni tengo aritos\u2026 soy re f\xE1cil de dibujar."
   description: 
   character: {fileID: 2119285919}
-  portrait: {fileID: -8697179926911921612, guid: cddd9c687f9d7254fbde4e75b76a75ea, type: 3}
+  portrait: {fileID: -403887085373913137, guid: 2f846e46d2a9c154c95756a2ef687778, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1725,7 +1727,7 @@ MonoBehaviour:
   storyText: "No voy a negociar. Mis principios permanecer\xE1n intactos."
   description: 
   character: {fileID: 572438724}
-  portrait: {fileID: -6072365937417533290, guid: 88dcb9d5c86721d4d9a346117c0a015a, type: 3}
+  portrait: {fileID: 302180303670240438, guid: b32e9428e63401b498a0d6ef26b3680b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1752,7 +1754,7 @@ MonoBehaviour:
   storyText: "\xA1Daleee! Es un dibujito nom\xE1s. No te cuesta nada."
   description: 
   character: {fileID: 2119285919}
-  portrait: {fileID: -8697179926911921612, guid: cddd9c687f9d7254fbde4e75b76a75ea, type: 3}
+  portrait: {fileID: -403887085373913137, guid: 2f846e46d2a9c154c95756a2ef687778, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1905,6 +1907,34 @@ MonoBehaviour:
     stringVal: Minijuego
   loadingImage: {fileID: 0}
   sceneNameOLD: 
+--- !u!114 &436814800
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 436814625}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 168
+  indentLevel: 0
+  storyText: "Si no lo hago, pierdo una de las tres vidas que tengo. Tu objetivo
+    es quitarme las tres vidas, el m\xEDo es sobrevivir."
+  description: 
+  character: {fileID: 2119285919}
+  portrait: {fileID: -403887085373913137, guid: 2f846e46d2a9c154c95756a2ef687778, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!1 &528682753
 GameObject:
   m_ObjectHideFlags: 0
@@ -2017,7 +2047,9 @@ MonoBehaviour:
   nameColor: {r: 1, g: 0, b: 0, a: 1}
   soundEffect: {fileID: 0}
   portraits:
-  - {fileID: -6072365937417533290, guid: 88dcb9d5c86721d4d9a346117c0a015a, type: 3}
+  - {fileID: -4400825398748620870, guid: 15afd94342ae25d4a90eef22c8a000ee, type: 3}
+  - {fileID: 3911758487430624943, guid: 68a5f7f5069ad1b469198f02cc967600, type: 3}
+  - {fileID: 302180303670240438, guid: b32e9428e63401b498a0d6ef26b3680b, type: 3}
   portraitsFace: 1
   setSayDialog: {fileID: 0}
   description: 
@@ -3722,6 +3754,8 @@ MonoBehaviour:
   soundEffect: {fileID: 0}
   portraits:
   - {fileID: -8697179926911921612, guid: cddd9c687f9d7254fbde4e75b76a75ea, type: 3}
+  - {fileID: 4595871048461938273, guid: 4c0374cc31949d24d9b3651348ad3fdc, type: 3}
+  - {fileID: -403887085373913137, guid: 2f846e46d2a9c154c95756a2ef687778, type: 3}
   portraitsFace: 1
   setSayDialog: {fileID: 0}
   description: 
