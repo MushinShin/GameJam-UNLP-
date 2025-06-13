@@ -402,6 +402,58 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &543485228
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 543485230}
+  - component: {fileID: 543485229}
+  m_Layer: 0
+  m_Name: Luca Desconocido
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &543485229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 543485228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameText: Desconocido
+  nameColor: {r: 0.9056604, g: 0.6243951, b: 0.055535804, a: 1}
+  soundEffect: {fileID: 0}
+  portraits:
+  - {fileID: 6895378738407024239, guid: 7cd173062fb4a344f9061341fca39691, type: 3}
+  portraitsFace: 1
+  setSayDialog: {fileID: 0}
+  description: 
+--- !u!4 &543485230
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 543485228}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &926407264
 GameObject:
   m_ObjectHideFlags: 0
@@ -534,6 +586,9 @@ GameObject:
   - component: {fileID: 1431385076}
   - component: {fileID: 1431385075}
   - component: {fileID: 1431385077}
+  - component: {fileID: 1431385079}
+  - component: {fileID: 1431385078}
+  - component: {fileID: 1431385080}
   m_Layer: 0
   m_Name: Dia 2 FlowChart
   m_TagString: Untagged
@@ -566,7 +621,7 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1431385043}
+  - {fileID: 1431385036}
   selectedCommands: []
   variables: []
   description: 
@@ -684,7 +739,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1431384970}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5c6dd8d3a780f4d1ea772e3daf10c372, type: 3}
   m_Name: 
@@ -1130,7 +1185,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 198
   indentLevel: 0
-  text: Eleccion B
+  text: Abrazar La Muerte
   description: 
   targetBlock: {fileID: 1431385043}
   hideIfVisited: 0
@@ -1402,8 +1457,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: Buscalo en google.
   description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
+  character: {fileID: 543485229}
+  portrait: {fileID: 6895378738407024239, guid: 7cd173062fb4a344f9061341fca39691, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1457,8 +1512,8 @@ MonoBehaviour:
   storyText: "No sos muy futbolero, \xBFno? Cinco copas libertadores, pap\xE1. As\xED
     como escuch\xE1s."
   description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
+  character: {fileID: 543485229}
+  portrait: {fileID: 6895378738407024239, guid: 7cd173062fb4a344f9061341fca39691, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1538,8 +1593,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "\xBFPerd\xF3n? No entiendo la pregunta."
   description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
+  character: {fileID: 543485229}
+  portrait: {fileID: 6895378738407024239, guid: 7cd173062fb4a344f9061341fca39691, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1632,6 +1687,9 @@ MonoBehaviour:
 '
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 1431385078}
+  - {fileID: 1431385079}
+  - {fileID: 1431385080}
   - {fileID: 1431385068}
   - {fileID: 1431385067}
   - {fileID: 1431385066}
@@ -1768,8 +1826,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -2689.9917
-    y: 327.4997
+    x: -2691.5542
+    y: 329.0622
     width: 144.78
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -1858,6 +1916,84 @@ MonoBehaviour:
     stringVal: Minijuego
   loadingImage: {fileID: 0}
   sceneNameOLD: 
+--- !u!114 &1431385078
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1431384970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c6dd8d3a780f4d1ea772e3daf10c372, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 220
+  indentLevel: 0
+  targetObjects:
+  - {fileID: 926407264}
+  tweenType: 1
+  waitUntilFinished:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  duration:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  fadeMode: 0
+  targetColor:
+    colorRef: {fileID: 0}
+    colorVal: {r: 1, g: 1, b: 1, a: 1}
+  targetAlpha:
+    floatRef: {fileID: 0}
+    floatVal: 1
+--- !u!114 &1431385079
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1431384970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c6dd8d3a780f4d1ea772e3daf10c372, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 219
+  indentLevel: 0
+  targetObjects:
+  - {fileID: 304961975}
+  tweenType: 1
+  waitUntilFinished:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  duration:
+    floatRef: {fileID: 0}
+    floatVal: 1
+  fadeMode: 0
+  targetColor:
+    colorRef: {fileID: 0}
+    colorVal: {r: 1, g: 1, b: 1, a: 1}
+  targetAlpha:
+    floatRef: {fileID: 0}
+    floatVal: 1
+--- !u!114 &1431385080
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1431384970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 221
+  indentLevel: 0
+  _duration:
+    floatRef: {fileID: 0}
+    floatVal: 1
+  durationOLD: 0
 --- !u!1 &1550890856
 GameObject:
   m_ObjectHideFlags: 0
@@ -2228,4 +2364,5 @@ SceneRoots:
   - {fileID: 295535978}
   - {fileID: 2037477889}
   - {fileID: 463399059}
+  - {fileID: 543485230}
   - {fileID: 72372080}

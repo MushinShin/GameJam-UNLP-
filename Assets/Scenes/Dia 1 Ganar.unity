@@ -436,7 +436,8 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
+  selectedBlocks:
+  - {fileID: 436814804}
   selectedCommands: []
   variables: []
   description: 
@@ -550,7 +551,7 @@ MonoBehaviour:
     booleanVal: 1
   duration:
     floatRef: {fileID: 0}
-    floatVal: 1
+    floatVal: 2
   fadeMode: 0
   targetColor:
     colorRef: {fileID: 0}
