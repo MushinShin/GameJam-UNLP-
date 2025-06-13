@@ -10,17 +10,19 @@ public class MusicManager : MonoBehaviour
     //juasjuas
 
     [Header("1. Musica Y Nivel Actual")]
-    [SerializeField] AudioSource Audio; 
+    [SerializeField] AudioSource Audio;
     [SerializeField] ChartAsset nivelActual;  //queda como serializedField hasta que haga el game manager asi puedo testear
+    [SerializeField] AudioSource winQuote;
+    [SerializeField] AudioSource loseQuote;
 
     [Header("2. Notas")]
-    [SerializeField] float TiempoDeViajeNota = 1.5f; 
-    [SerializeField] float HitWindow = 0.15f;     
+    [SerializeField] float TiempoDeViajeNota = 1.5f;
+    [SerializeField] float HitWindow = 0.15f;
 
     [Header("3. Recorrido De Las Notas")]
-    [SerializeField] GameObject NotaPreFab;       
-    [SerializeField] Transform Spawn;        
-    [SerializeField] Transform Hit;          
+    [SerializeField] GameObject NotaPreFab;
+    [SerializeField] Transform Spawn;
+    [SerializeField] Transform Hit;
     [SerializeField] Transform destroy;      //uso destroy y no Destroy por que con D mayuscula ya esta usado 
 
     [Header("4. Vida")]
@@ -28,16 +30,21 @@ public class MusicManager : MonoBehaviour
 
 
     [Header("5. Referencias UI")]
-    [SerializeField] GameObject corazonesFullSprite; 
-    [SerializeField] GameObject corazones2Sprite;    
-    [SerializeField] GameObject corazones1Sprite;  
+    [SerializeField] GameObject corazonesFullSprite;
+    [SerializeField] GameObject corazones2Sprite;
+    [SerializeField] GameObject corazones1Sprite;
     [SerializeField] GameObject corazonesVacioSprite;
+
+    [Header("6. Referencias Personajes")]
+    [SerializeField] GameObject mirada;
+    [SerializeField] GameObject miradaHit;
+    [SerializeField] GameObject miradaMiss;
 
     //variables privadas
     private int vidasActuales;
-    private bool juegoTerminado = false; 
-    private float beat; 
-    private Queue<NotasData> NotasSinAparecer = new Queue<NotasData>(); 
+    private bool juegoTerminado = false;
+    private float beat;
+    private Queue<NotasData> NotasSinAparecer = new Queue<NotasData>();
     private Queue<Nota> NotasActivas = new Queue<Nota>();
     private int notasTotal = 0;
     private int notasProcesadas = 0;
@@ -52,7 +59,7 @@ public class MusicManager : MonoBehaviour
 
     void Start()
     {
-        InitializeGame(); 
+        InitializeGame();
     }
 
     void Update()
@@ -60,15 +67,15 @@ public class MusicManager : MonoBehaviour
         if (juegoTerminado) return;
         if (Audio.isPlaying)
         {
-            spawnearNotas();  
-            golpearNotas();  
+            spawnearNotas();
+            golpearNotas();
         }
-        else 
+        else
         {
-            
-            if (NotasSinAparecer.Count == 0 && NotasActivas.Count == 0 && Audio.time >= Audio.clip.length - 0.1f) 
+
+            if (NotasSinAparecer.Count == 0 && NotasActivas.Count == 0 && Audio.time >= Audio.clip.length - 0.1f)
             {
-                TriggerRhythmGameOver(true); 
+                TriggerRhythmGameOver(true);
             }
         }
     }
@@ -139,34 +146,36 @@ public class MusicManager : MonoBehaviour
     {
         if (NotasActivas.Count > 0)
         {
-            Nota notaActual = NotasActivas.Peek(); 
+            Nota notaActual = NotasActivas.Peek();
 
-            float missWindow = notaActual.tiempoObjetivo + (HitWindow / 2f); 
+            float missWindow = notaActual.tiempoObjetivo + (HitWindow / 2f);
             //MISS
             if (Audio.time >= missWindow)
             {
-                NotasActivas.Dequeue(); 
+                NotasActivas.Dequeue();
                 notaActual.OnMiss();
                 notasProcesadas++;
                 vidasActuales--;
                 actualizarUI();
                 CheckGameEndConditions();
+                StartCoroutine(CambiarDibujo(false));
                 Debug.Log("MISS!");
                 return;
             }
 
             //HIT
-            if (Input.GetKeyDown(KeyCode.Space)) 
+            if (Input.GetKeyDown(KeyCode.Space))
             {
                 float timeDifference = Mathf.Abs(Audio.time - notaActual.tiempoObjetivo);
 
-                
-                if (timeDifference <= HitWindow / 2f) 
+
+                if (timeDifference <= HitWindow / 2f)
                 {
-                    NotasActivas.Dequeue(); 
+                    NotasActivas.Dequeue();
                     notaActual.OnHit();
                     notasProcesadas++;
                     CheckGameEndConditions();
+                    StartCoroutine(CambiarDibujo(true));
                     Debug.Log("HIT!");
                 }
                 else
@@ -174,13 +183,14 @@ public class MusicManager : MonoBehaviour
                     Debug.Log("Fallo, muy temprano");
                     vidasActuales--;
                     actualizarUI();
+                    StartCoroutine(CambiarDibujo(false));
                     CheckGameEndConditions();
                 }
             }
         }
         else
         {
-            if (Input.GetKeyDown(KeyCode.Space)) 
+            if (Input.GetKeyDown(KeyCode.Space))
             {
                 Debug.Log("Fallo: Presi�n sin notas en pantalla.");
             }
@@ -190,33 +200,28 @@ public class MusicManager : MonoBehaviour
     {
         if (juegoTerminado) return;
         juegoTerminado = true;
-
-        Audio.Stop(); 
-        Debug.Log($"Juego de ritmo terminado. El jugador {(playerWon ? "GANO" : "PERDIO")}.");
-
+        Audio.Stop();
         StartCoroutine(EndGameSequence(playerWon));
     }
-    private void CheckGameEndConditions() 
+    private void CheckGameEndConditions()
     {
-        if (juegoTerminado) return; 
+        if (juegoTerminado) return;
 
-      
+
         if (vidasActuales <= 0)
         {
-            Debug.Log("GAME OVER: Vidas agotadas.");
             TriggerRhythmGameOver(false); // Derrota
             return;
         }
 
-      
+
         if (notasProcesadas >= notasTotal && Audio.time >= Audio.clip.length - 0.1f)
         {
-            Debug.Log("VICTORIA: Todas las notas procesadas y canci�n finalizada.");
             TriggerRhythmGameOver(true); // Victoria
             return;
         }
     }
-    
+
     private void finishMinigame(bool Resultado)
     {
         string sceneToLoad = "";
@@ -253,16 +258,38 @@ public class MusicManager : MonoBehaviour
                 sceneToLoad = ""; // Nombre de tu escena Fungus para Día 3 Pierde
             }
         }
-            SceneManager.LoadScene(sceneToLoad);
+        SceneManager.LoadScene(sceneToLoad);
     }
     private IEnumerator EndGameSequence(bool Resultado)
     {
-
-        Debug.Log("termino");
-        // poner musica de victoria/derrota para que se escuche 
-        yield return new WaitForSeconds(2f);
+        if (Resultado)
+            winQuote.Play();
+        else
+            loseQuote.Play(); 
+        yield return StartCoroutine(screenfader.Instance.FadeOut());
+        
         finishMinigame(Resultado);
+    }
 
+    private IEnumerator CambiarDibujo(bool FueUnHit)
+    {
+        mirada.SetActive(false); 
+        miradaHit.SetActive(false); 
+        miradaMiss.SetActive(false); 
+        if (FueUnHit)
+        {
+            miradaHit.SetActive(true); 
+        }
+        else 
+        {
+            miradaMiss.SetActive(true); 
+        }
+        
+        yield return new WaitForSeconds(0.5f); 
+       
+        miradaHit.SetActive(false); 
+        miradaMiss.SetActive(false);
+        mirada.SetActive(true);    
     }
 }
 
