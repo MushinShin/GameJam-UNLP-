@@ -590,6 +590,7 @@ GameObject:
   - component: {fileID: 1431385028}
   - component: {fileID: 1431385030}
   - component: {fileID: 1431385031}
+  - component: {fileID: 1431385032}
   m_Layer: 0
   m_Name: Dia 2 FlowChart
   m_TagString: Untagged
@@ -723,7 +724,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -2767.7742
     y: 166.62572
-    width: 192.54
+    width: 195.96608
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -740,6 +741,7 @@ MonoBehaviour:
   - {fileID: 1431385030}
   - {fileID: 1431385029}
   - {fileID: 1431385031}
+  - {fileID: 1431385032}
   suppressAllAutoSelections: 0
 --- !u!114 &1431385017
 MonoBehaviour:
@@ -768,7 +770,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 1431384976}
   selectedCommands:
-  - {fileID: 1431385029}
+  - {fileID: 1431385032}
   variables: []
   description: 
   stepPause: 0
@@ -850,7 +852,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -2891.3062
     y: 168.42554
-    width: 78.03
+    width: 78.70016
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1010,6 +1012,25 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
+--- !u!114 &1431385032
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1431384970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 172
+  indentLevel: 0
+  _sceneName:
+    stringRef: {fileID: 0}
+    stringVal: Dia 3 FlowChart 1
+  loadingImage: {fileID: 0}
+  sceneNameOLD: 
 --- !u!1 &1550890856
 GameObject:
   m_ObjectHideFlags: 0

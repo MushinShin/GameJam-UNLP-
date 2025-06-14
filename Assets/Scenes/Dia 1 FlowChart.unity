@@ -382,6 +382,8 @@ GameObject:
   - component: {fileID: 436814798}
   - component: {fileID: 436814799}
   - component: {fileID: 436814800}
+  - component: {fileID: 436814802}
+  - component: {fileID: 436814801}
   m_Layer: 0
   m_Name: Dia 1 Flowchart
   m_TagString: Untagged
@@ -447,7 +449,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 721.3546
     y: 68.32978
-    width: 117.28
+    width: 118.89728
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -472,9 +474,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 537.31256
-    y: 134.28716
-    width: 148.22
+    x: 536.302
+    y: 135.29768
+    width: 150.57729
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -492,6 +494,7 @@ MonoBehaviour:
   - {fileID: 436814770}
   - {fileID: 436814800}
   - {fileID: 436814769}
+  - {fileID: 436814801}
   - {fileID: 436814729}
   suppressAllAutoSelections: 0
 --- !u!114 &436814733
@@ -510,7 +513,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 534.5269
     y: -4.263008
-    width: 148.53
+    width: 150.89215
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -527,6 +530,7 @@ MonoBehaviour:
   - {fileID: 436814779}
   - {fileID: 436814778}
   - {fileID: 436814777}
+  - {fileID: 436814802}
   - {fileID: 436814730}
   suppressAllAutoSelections: 0
 --- !u!114 &436814734
@@ -616,7 +620,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 373.01068
     y: 75.97361
-    width: 138.26999
+    width: 140.38593
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -682,7 +686,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 202.22969
     y: 75.72169
-    width: 98.79
+    width: 99.958405
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -730,7 +734,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 17.044443
     y: 75.88948
-    width: 78.03
+    width: 78.70016
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -755,10 +759,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 510.45422, y: 155.30807}
+  scrollPos: {x: 52.685707, y: 339.22385}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
-  blockViewHeight: 509
+  blockViewHeight: 200
   zoom: 0.75999975
   scrollViewRect:
     serializedVersion: 2
@@ -767,9 +771,8 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 436814732}
-  selectedCommands:
-  - {fileID: 436814769}
+  - {fileID: 436814731}
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -1904,12 +1907,12 @@ MonoBehaviour:
   indentLevel: 0
   _sceneName:
     stringRef: {fileID: 0}
-    stringVal: Minijuego
+    stringVal: dia 1
   loadingImage: {fileID: 0}
   sceneNameOLD: 
 --- !u!114 &436814800
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1935,6 +1938,34 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
+--- !u!114 &436814801
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 436814625}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b359b09a7ba2e4af981f07c07f8af85a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 172
+  indentLevel: 0
+--- !u!114 &436814802
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 436814625}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b359b09a7ba2e4af981f07c07f8af85a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 171
+  indentLevel: 0
 --- !u!1 &528682753
 GameObject:
   m_ObjectHideFlags: 0
@@ -3785,6 +3816,7 @@ GameObject:
   - component: {fileID: 2135026903}
   - component: {fileID: 2135026902}
   - component: {fileID: 2135026901}
+  - component: {fileID: 2135026904}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -3866,6 +3898,50 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2135026904
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2135026900}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 2
+  m_RequiresOpaqueTextureOption: 2
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: -1
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_VolumeFrameworkUpdateModeOption: 2
+  m_RenderPostProcessing: 0
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 0
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_AllowXRRendering: 1
+  m_AllowHDROutput: 1
+  m_UseScreenCoordOverride: 0
+  m_ScreenSizeOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_ScreenCoordScaleBias: {x: 0, y: 0, z: 0, w: 0}
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_Version: 2
+  m_TaaSettings:
+    m_Quality: 3
+    m_FrameInfluence: 0.1
+    m_JitterScale: 1
+    m_MipBias: 0
+    m_VarianceClampScale: 0.9
+    m_ContrastAdaptiveSharpening: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

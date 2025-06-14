@@ -610,7 +610,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 3404.8953, y: -122.774895}
+  scrollPos: {x: 2492.8953, y: 173.62518}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
@@ -621,10 +621,8 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 1431385043}
-  selectedCommands:
-  - {fileID: 1431385037}
+  selectedBlocks: []
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -706,7 +704,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -2889.105
     y: 331.43945
-    width: 78.03
+    width: 78.70016
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -780,7 +778,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -1908.2009
     y: 332.57266
-    width: 115.3
+    width: 116.86976
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -939,7 +937,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -2145.869
     y: 374.8749
-    width: 151.44
+    width: 153.87967
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1073,7 +1071,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -2146.238
     y: 287.20398
-    width: 141.79001
+    width: 143.99551
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1594,7 +1592,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -2421.581
     y: 328.10687
-    width: 136.58
+    width: 138.65793
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1723,7 +1721,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -2686.8667
     y: 329.0622
-    width: 144.78
+    width: 147.05215
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1752,7 +1750,7 @@ MonoBehaviour:
   indentLevel: 0
   _sceneName:
     stringRef: {fileID: 0}
-    stringVal: Minijuego
+    stringVal: dia 3
   loadingImage: {fileID: 0}
   sceneNameOLD: 
 --- !u!114 &1431385078
@@ -1835,7 +1833,7 @@ MonoBehaviour:
   durationOLD: 0
 --- !u!114 &1431385081
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1863,7 +1861,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1431385082
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1890,7 +1888,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1431385083
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1918,7 +1916,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1431385084
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1946,7 +1944,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1431385085
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}

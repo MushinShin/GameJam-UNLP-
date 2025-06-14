@@ -1,9 +1,9 @@
 using Fungus;
-using Microsoft.Unity.VisualStudio.Editor;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using FirstGearGames.SmoothCameraShaker;
 
 public class MusicManager : MonoBehaviour
 {
@@ -14,6 +14,7 @@ public class MusicManager : MonoBehaviour
     [SerializeField] ChartAsset nivelActual;  //queda como serializedField hasta que haga el game manager asi puedo testear
     [SerializeField] AudioSource winQuote;
     [SerializeField] AudioSource loseQuote;
+    [SerializeField] ShakeData EfectoMiss;
 
     [Header("2. Notas")]
     [SerializeField] float TiempoDeViajeNota = 1.5f;
@@ -125,7 +126,7 @@ public class MusicManager : MonoBehaviour
         {
             NotasData NotaSiguiente = NotasSinAparecer.Peek(); //tomas la proxima nota
 
-            float tiempoObjetivo = NotaSiguiente.getBeat() * beat; // convierte la medida de tiempo beat a segundos 
+            float tiempoObjetivo = NotaSiguiente.getBeat(); // convierte la medida de tiempo beat a segundos 
             float SpawnTime = tiempoObjetivo - TiempoDeViajeNota; // le restas el tiempo de viaje de la nota
 
             if (Audio.time >= SpawnTime)
@@ -192,7 +193,11 @@ public class MusicManager : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.Space))
             {
-                Debug.Log("Fallo: Presi�n sin notas en pantalla.");
+                vidasActuales--;
+                actualizarUI();
+                StartCoroutine(CambiarDibujo(false));
+                CameraShakerHandler.Shake(EfectoMiss);
+                CheckGameEndConditions();
             }
         }
     }
@@ -229,33 +234,33 @@ public class MusicManager : MonoBehaviour
         {
             if (Resultado)
             {
-                sceneToLoad = "Dia 1 Ganar"; // Nombre de tu escena Fungus para Día 1 Gane
+                sceneToLoad = "Dia 1 Ganar"; 
             }
             else
             {
-                sceneToLoad = "Dia 1 Perder"; // Nombre de tu escena Fungus para Día 1 Pierde
+                sceneToLoad = "Dia 1 Perder"; 
             }
         }
         else if (nivelActual.NumeroDeNivel == 2)
         {
             if (Resultado)
             {
-                sceneToLoad = "Dia 2 Ganar"; // Nombre de tu escena Fungus para Día 2 Gane
+                sceneToLoad = "Dia 2 Ganar"; 
             }
             else
             {
-                sceneToLoad = "Dia 2 Perder"; // Nombre de tu escena Fungus para Día 2 Pierde
+                sceneToLoad = "Dia 2 Perder"; 
             }
         }
         else if (nivelActual.NumeroDeNivel == 3)
         {
             if (Resultado)
             {
-                sceneToLoad = ""; // Nombre de tu escena Fungus para Día 3 Gane
+                sceneToLoad = "Dia 3 Ganar"; 
             }
             else
             {
-                sceneToLoad = ""; // Nombre de tu escena Fungus para Día 3 Pierde
+                sceneToLoad = "Dia 3 Perder"; 
             }
         }
         SceneManager.LoadScene(sceneToLoad);

@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8ca715ef2b3b1d4498988b13f23a36b5, type: 3}
-  m_Name: nivel 1
+  m_Name: nivel 1-3
   m_EditorClassIdentifier: 
   notas:
   - beat: 9.05
@@ -94,4 +94,4 @@ MonoBehaviour:
   - beat: 70.75
   - beat: 71.03
   songBPM: 106
-  NumeroDeNivel: 1
+  NumeroDeNivel: 3

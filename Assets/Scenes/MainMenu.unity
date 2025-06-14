@@ -253,7 +253,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -51.999996
     y: -92.841415
-    width: 84.18
+    width: 85.00544
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -278,7 +278,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 568.2678, y: 244.09172}
+  scrollPos: {x: 135.2465, y: 436.0916}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
@@ -289,8 +289,10 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 213843470}
+  selectedCommands:
+  - {fileID: 213843482}
   variables: []
   description: 
   stepPause: 0
@@ -333,7 +335,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 150.7334
     y: -93.51735
-    width: 112.34
+    width: 113.83616
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -382,7 +384,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 336.01956
     y: 22.418821
-    width: 73.32
+    width: 73.87712
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -409,7 +411,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 335.07312
     y: -129.68752
-    width: 114.51
+    width: 116.05568
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -434,7 +436,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 10
   indentLevel: 0
-  musicClip: {fileID: 8300000, guid: 2d562298c3d5b5c449b19f3840e60693, type: 3}
+  musicClip: {fileID: 8300000, guid: 3f722ed8478654b4d9afc9ce1efaa676, type: 3}
   atTime: 0
   loop: 1
   fadeDuration: 1
