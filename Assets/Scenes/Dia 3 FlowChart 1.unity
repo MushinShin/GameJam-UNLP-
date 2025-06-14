@@ -590,6 +590,7 @@ GameObject:
   - component: {fileID: 1431385082}
   - component: {fileID: 1431385084}
   - component: {fileID: 1431385085}
+  - component: {fileID: 1431385086}
   m_Layer: 0
   m_Name: Dia 2 FlowChart
   m_TagString: Untagged
@@ -610,7 +611,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 2492.8953, y: 173.62518}
+  scrollPos: {x: 2938.0952, y: 179.62518}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
@@ -621,8 +622,10 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 1431385024}
+  selectedCommands:
+  - {fileID: 1431385022}
   variables: []
   description: 
   stepPause: 0
@@ -663,7 +666,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 166
   indentLevel: 0
-  musicClip: {fileID: 0}
+  musicClip: {fileID: 8300000, guid: 3f722ed8478654b4d9afc9ce1efaa676, type: 3}
   atTime: 0
   loop: 1
   fadeDuration: 1
@@ -787,6 +790,7 @@ MonoBehaviour:
   description: Ver como llamar.
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 1431385086}
   - {fileID: 1431385077}
   suppressAllAutoSelections: 0
 --- !u!114 &1431385037
@@ -1970,6 +1974,20 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
+--- !u!114 &1431385086
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1431384970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b359b09a7ba2e4af981f07c07f8af85a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 227
+  indentLevel: 0
 --- !u!1 &1550890856
 GameObject:
   m_ObjectHideFlags: 0

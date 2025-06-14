@@ -330,7 +330,6 @@ GameObject:
   - component: {fileID: 436814741}
   - component: {fileID: 436814740}
   - component: {fileID: 436814738}
-  - component: {fileID: 436814790}
   - component: {fileID: 436814804}
   - component: {fileID: 436814803}
   - component: {fileID: 436814802}
@@ -341,6 +340,7 @@ GameObject:
   - component: {fileID: 436814797}
   - component: {fileID: 436814796}
   - component: {fileID: 436814805}
+  - component: {fileID: 436814806}
   m_Layer: 0
   m_Name: Dia 1 Flowchart
   m_TagString: Untagged
@@ -400,7 +400,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 17.044443
     y: 75.88948
-    width: 78.03
+    width: 78.70016
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -410,7 +410,7 @@ MonoBehaviour:
   eventHandler: {fileID: 436814740}
   commandList:
   - {fileID: 436814738}
-  - {fileID: 436814790}
+  - {fileID: 436814806}
   suppressAllAutoSelections: 0
 --- !u!114 &436814742
 MonoBehaviour:
@@ -425,7 +425,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 797.2977, y: 107.93956}
+  scrollPos: {x: 573.97144, y: 228.1922}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 509
@@ -437,9 +437,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 436814804}
+  - {fileID: 436814741}
   selectedCommands:
-  - {fileID: 436814796}
+  - {fileID: 436814806}
   variables: []
   description: 
   stepPause: 0
@@ -466,24 +466,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &436814790
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436814625}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1902400ccc99b45d69ad01cb86b57d0f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 159
-  indentLevel: 0
-  musicClip: {fileID: 0}
-  atTime: 0
-  loop: 1
-  fadeDuration: 1
 --- !u!114 &436814796
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -716,7 +698,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 134.05382
     y: 73.37634
-    width: 186.45
+    width: 189.72992
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -764,6 +746,24 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
+--- !u!114 &436814806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 436814625}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1902400ccc99b45d69ad01cb86b57d0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 176
+  indentLevel: 0
+  musicClip: {fileID: 8300000, guid: 3f722ed8478654b4d9afc9ce1efaa676, type: 3}
+  atTime: 0
+  loop: 1
+  fadeDuration: 1
 --- !u!1 &528682753
 GameObject:
   m_ObjectHideFlags: 0

@@ -591,6 +591,7 @@ GameObject:
   - component: {fileID: 1431385030}
   - component: {fileID: 1431385031}
   - component: {fileID: 1431385032}
+  - component: {fileID: 1431385033}
   m_Layer: 0
   m_Name: Dia 2 FlowChart
   m_TagString: Untagged
@@ -733,6 +734,7 @@ MonoBehaviour:
   description: 4 Dialogos
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 1431385033}
   - {fileID: 1431384975}
   - {fileID: 1431384974}
   - {fileID: 1431384973}
@@ -770,7 +772,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 1431384976}
   selectedCommands:
-  - {fileID: 1431385032}
+  - {fileID: 1431385033}
   variables: []
   description: 
   stepPause: 0
@@ -1031,6 +1033,24 @@ MonoBehaviour:
     stringVal: Dia 3 FlowChart 1
   loadingImage: {fileID: 0}
   sceneNameOLD: 
+--- !u!114 &1431385033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1431384970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1902400ccc99b45d69ad01cb86b57d0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 173
+  indentLevel: 0
+  musicClip: {fileID: 8300000, guid: 3f722ed8478654b4d9afc9ce1efaa676, type: 3}
+  atTime: 0
+  loop: 1
+  fadeDuration: 1
 --- !u!1 &1550890856
 GameObject:
   m_ObjectHideFlags: 0
